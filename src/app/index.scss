@@ -29,10 +29,10 @@ body {
 
 }
 
-
-.background-pages{
-	background-color: #00C4FF;
+.ng-scope{
+	background-color:#00C4FF;
 }
+
 
 .thumbnail {
   height: 200px;
@@ -133,9 +133,7 @@ box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
   height:160px;
  }
 
- .email-form{
-  padding-top: 60px;
- }
+ 
 
 input.ng-pristine.ng-untouched.ng-valid.ng-empty,
 input.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse,
@@ -221,8 +219,8 @@ textarea.text-area.ng-pristine.ng-untouched.ng-valid.ng-empty{
 .input-message{
 	width: 70%;
 	margin-bottom:20px;
-	font-size:15px;
-  	// color:black;
+	font-size:18px;
+  	border:none;
 }
 
 .send-email{
@@ -234,6 +232,10 @@ textarea.text-area.ng-pristine.ng-untouched.ng-valid.ng-empty{
     color: white;
 
 }
+
+.email-form{
+  padding-top: 150px;
+ }
 
 
 

@@ -1,0 +1,45 @@
+<div class="container">
+<!-- To add each navbar -->
+  <div>
+    <acme-navbar creation-date="main.creationDate"></acme-navbar>
+  </div>
+	
+	<!-- <div class="cart">
+		<span ng-repeat="(key, value) in prod.cart">{{key}}: {{value}}</span>
+	</div> -->
+
+
+ <!--  <div class="row first_product_row">
+     <a href="/products/new">Create new Product</a>
+  </div> -->
+
+  <div>
+   
+    <!-- Form to search for specific product -->
+    <form class="user_form" name="myForm">
+      <input type="text" ng-model="prod.userInput" placeholder="Search Product by Title">
+       
+    </form>
+
+     <section ng-show="prod.alertDisplayed"> Product added to cart</section>
+    <div class="row product_images">
+    <!-- Return the product filtering by title of user input. -->
+      <div class="col-xs-12 col-md-4 col-lg-4 each_product" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
+        
+          <h3><a data="{{product.id}}" href="#/product/{{product.id}}">{{product.title}}</a></h3>
+          <a data="{{product.id}}" href="#/product/{{product.id}}"><img ng-src="img/{{product.image}}"></a>
+        <h4>{{product.price | currency}}</h4>
+        
+        <button class="btn btn-primary btn-block" ng-click="prod.addProd(product.id)">Add to Cart</button>
+ 
+       <!-- <div ng-hide="(products| filter:{title: userInput}).length">No Product Found.</div> -->
+      </div>
+     
+    </div>
+     <!-- Show this message if a product if not found. -->
+    <div class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</div>
+
+  </div>
+  <!-- {{prod.products}} -->
+</div>
+

@@ -1,0 +1,26 @@
+<div class="container">
+	<div class="row email-form">
+		<div class="col-xs-12 col-lg-6 col-lg-offset-3">
+		<form validate class="simple-form" name="messageForm">
+			
+		    <input placeholder="Enter your name" class="input-message" ng-model="contact.message.name" required/>
+		    <!-- ng-messages to show field is required -->
+		    <div ng-messages="messageForm.contact.message.name.$error">
+				<div ng-message="required">This field is required</div>
+			</div>
+		   <input  type="email" placeholder="Enter your email" class="input-message" ng-model="contact.message.email" required /><br />
+		    <div ng-messages="messageForm.contact.message.email.$error">
+				<div ng-message="required">This field is required</div>
+			</div>
+		     <textarea class="message-text input-message" placeholder="Type a message" type="text" ng-model="contact.message.content" required/>
+		     <div ng-messages="messageForm.contact.message.content.$error">
+				<div ng-message="required">This field is required</div>
+				<div ng-message="maxlength">Message must not exceed 1000 characters</div>
+			</div>
+			<!-- Disable button if any of the inputs are empty -->
+		     <button class="send-email" ng-disabled="!(!!contact.message.name || !!contact.message.email  || !!contact.message.content)" ng-click="contact.sendMessage(contact.message)">Add to Cart</button>
+ 
+		 </form>
+		</div>
+	</div>
+ </div>

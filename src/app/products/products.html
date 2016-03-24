@@ -24,7 +24,7 @@
      <section ng-show="prod.alertDisplayed"> Product added to cart</section>
     <div class="row product_images">
     <!-- Return the product filtering by title of user input. -->
-      <div class="col-xs-12 col-md-4 col-lg-4 each_product" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
+      <div class="col-xs-5 col-md-4 col-lg-4 each_product" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
         
           <h3><a data="{{product.id}}" href="#/product/{{product.id}}">{{product.title}}</a></h3>
           <a data="{{product.id}}" href="#/product/{{product.id}}"><img ng-src="img/{{product.image}}"></a>

@@ -19,6 +19,12 @@
         templateUrl: 'app/products/products.html',
         controller: 'ProductsController',
         controllerAs: 'prod'
+      })
+      .state('contact', {
+        url: '/contact',
+        templateUrl: 'app/contact/contact.html',
+        controller: 'MessageController',
+        controllerAs: 'contact'
       });
 
     $urlRouterProvider.otherwise('/');

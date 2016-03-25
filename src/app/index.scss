@@ -221,6 +221,8 @@ textarea.text-area.ng-pristine.ng-untouched.ng-valid.ng-empty{
 .product-search-input{
 	width:100%;
 	border:none;
+	padding-left: 25px;
+	font-size:15px;
 }
 
 .product_images{
@@ -229,24 +231,36 @@ textarea.text-area.ng-pristine.ng-untouched.ng-valid.ng-empty{
 .loupe-icon{
 	position: relative;
     top: -23px;
-    height: 15px;
-    padding-left:10px;
+    height: 18px;
+    padding-left: 3px;
 }
 
 ::-webkit-input-placeholder {
-   text-align: center;
+   text-align: left;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   text-align: center;  
+   text-align: left;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   text-align: center;  
+   text-align: left;  
 }
 
 :-ms-input-placeholder {  
-   text-align: center; 
+   text-align: left; 
+}
+
+.image-size{
+max-width:100%;
+max-height:100%;
+}
+
+.no-product{
+	text-align: center;
+    display: block;
+    font-size: 30px;
+    color: white;
 }
 
 

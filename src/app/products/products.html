@@ -21,7 +21,9 @@
       <div class="col-xs-5 col-md-4 col-lg-4 each_product" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
         
           <h3><a data="{{product.id}}" href="#/product/{{product.id}}">{{product.title}}</a></h3>
-          <a data="{{product.id}}" href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
+          <div class="image-size">
+         	 <a data="{{product.id}}" href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
+         </div>
           <h4>{{product.price | currency}}</h4>
         
         <button class="btn btn-primary btn-block" ng-click="prod.addProd(product.id)">Add to Cart</button>
@@ -30,7 +32,7 @@
      
     </div>
      <!-- Show this message if a product if not found. -->
-    <div class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</div>
+    <span class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</span>
 
  
   <!-- {{prod.products}} -->

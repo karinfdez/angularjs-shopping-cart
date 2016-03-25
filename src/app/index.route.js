@@ -25,7 +25,13 @@
         templateUrl: 'app/contact/contact.html',
         controller: 'MessageController',
         controllerAs: 'contact'
-      });
+      })
+      .state('shopping',{
+        url: '/shopping',
+        templateUrl: 'app/shopping/shopping.html',
+        controller: 'ShoppingController',
+        controllerAs: 'shop'
+      })
 
     $urlRouterProvider.otherwise('/');
   }

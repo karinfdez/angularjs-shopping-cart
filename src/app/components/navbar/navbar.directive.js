@@ -19,14 +19,25 @@
     };
 
     return directive;
+  }
 
     /** @ngInject */
-    function NavbarController(moment) {
+    function NavbarController(moment,API,$log,$http,ShoppingService) {
       var vm = this;
+      vm.total=0;
 
-      // "vm.creation" is avaible by directive option "bindToController: true"
+      ShoppingService.getItems().success(function(data){
+        var items=data;
+         $log.debug(items);
+
+          for ( var key in items) {
+                 
+            vm.total=vm.total+items[key];
+            // $log.debug(vm.total);
+           }
+      })
       vm.relativeDate = moment(vm.creationDate).fromNow();
-    }
   }
+
 
 })();

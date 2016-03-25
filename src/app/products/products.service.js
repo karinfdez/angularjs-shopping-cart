@@ -6,7 +6,7 @@
     .factory('ProductService', ProductService);
 
   /** @ngInject */
-  function ProductService($http, $q,API) {
+  function ProductService($http, $q,API,$log) {
     return{
       getProducts : function() {
           return $http({
@@ -38,18 +38,23 @@
       },
       addToCart: function(id){
         var url = API + '/cart/' + id + '/add';
-        var defered = $q.defer();
+        $log.debug(url);
+        // var defered = $q.defer();
+        return $http({
+          url: url,
+          method: 'GET'
+        })
 
-        $http.get(url).then(
-          function(response) {
-            defered.resolve(response);
-          },
-          function(error){
-            defered.reject(error);
+        // $http.get(url).then(
+        //   function(response) {
+        //     defered.resolve(response);
+        //   },
+        //   function(error){
+        //     defered.reject(error);
             
-          });
+        //   });
 
-        return defered.promise;
+        // return defered.promise;
       }
     }
   }

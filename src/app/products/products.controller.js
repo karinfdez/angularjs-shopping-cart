@@ -16,14 +16,15 @@
 
     ProductService.getProducts().success(function(data){
       vm.products=data;
-      $log.debug(vm.products);
+      // $log.debug(vm.products);
     });
 
     function addProd(id){
+      $log.debug("id",id);
       ProductService.addToCart(id).then(
         function(response){
-          vm.cart = response.data;
-          // $log.debug(data);
+          vm.cart = response;
+          $log.debug("cart",vm.cart);
         },
         function(error){
           $log.debug(error);

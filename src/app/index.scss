@@ -133,38 +133,6 @@ box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
   height:160px;
  }
 
- 
-
-input.ng-pristine.ng-untouched.ng-valid.ng-empty,
-input.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse,
-input.ng-untouched.ng-valid.ng-dirty.ng-valid-parse.ng-empty,
-input.ng-valid.ng-dirty.ng-valid-parse.ng-empty.ng-touched,
-input.ng-valid.ng-dirty.ng-valid-parse.ng-touched.ng-not-empty,
-input.ng-pristine.ng-valid.ng-empty.ng-touched,
-input.ng-not-empty.ng-dirty.ng-valid.ng-valid-email.ng-touched,
-input.ng-not-empty.ng-dirty.ng-invalid.ng-invalid-email.ng-touched,
-input.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse.ng-touched,
-// input.name-email.ng-dirty.ng-touched.ng-empty.ng-valid.ng-valid-email,
-input.ng-dirty.ng-touched.ng-empty.ng-valid.ng-valid-email,
-input.ng-untouched.ng-not-empty.ng-dirty.ng-invalid.ng-invalid-email,
-input.ng-untouched.ng-not-empty.ng-dirty.ng-invalid.ng-invalid-email,
-input.ng-untouched.ng-dirty.ng-empty.ng-valid.ng-valid-email,
-input.ng-untouched.ng-dirty.ng-empty.ng-valid.ng-valid-email,
-textarea.ng-pristine.ng-valid.ng-empty.ng-valid-email.ng-touched,
-textarea.ng-pristine.ng-valid.ng-empty.ng-touched,
-textarea.ng-pristine.ng-untouched.ng-valid.ng-empty,
-textarea.ng-valid.ng-touched.ng-not-empty.ng-dirty.ng-valid-parse,
-textarea.ng-untouched.ng-valid.ng-not-empty.ng-dirty.ng-valid-parse,
-textarea.ng-untouched.ng-valid.ng-dirty.ng-valid-parse.ng-empty,
-textarea.ng-valid.ng-dirty.ng-valid-parse.ng-empty.ng-touched{
-  
-  font-size:15px;
-  font-color:black;
-   background-color: white;
-  border: none;
-
-}
-
 
 
 //Home page
@@ -234,9 +202,52 @@ textarea.text-area.ng-pristine.ng-untouched.ng-valid.ng-empty{
 }
 
 .email-form{
-  padding-top: 150px;
+  padding-top: 110px;
  }
 
+ .message-sent{
+ 	text-align:center;
+ 	color:white;
+ 	font-size:20px;
+ 	padding-top:60px;
+ }
+
+// Product page
+.product-search{
+	margin-top:7%;
+
+}
+
+.product-search-input{
+	width:100%;
+	border:none;
+}
+
+.product_images{
+	padding-top: 85px;
+}
+.loupe-icon{
+	position: relative;
+    top: -23px;
+    height: 15px;
+    padding-left:10px;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
 
 
 

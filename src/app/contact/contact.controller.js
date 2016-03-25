@@ -22,6 +22,7 @@
           vm.showSign=false;
           // To leave inputs field in blank
           // $timeout(function () { vm.showSign= false }, 3000); 
+        
           vm.message={};
           vm.sentMessage="Thanks, your message have been sent to Karin Fernandez.";
           vm.showMessage=true;

@@ -3,43 +3,35 @@
 	 <div class="row">
     	<acme-navbar creation-date="main.creationDate"></acme-navbar>
   	</div>
-  	<div class="row" ng-show="contact.showMessage">{{contact.sentMessage}}</div>
 	<div class="row email-form">
-		<div class="col-xs-12 col-lg-6 col-lg-offset-4">
+		<div class="col-xs-11 col-xs-offset-2 col-lg-6 col-lg-offset-4">
+		
+
 		<!-- Show this message when email is sent for a few seconds -->
 		<form validate class="simple-form" name="messageForm">
-			<div role="alert">
-		      <span class="error" ng-show="messageForm.name.$error.required">
-		        Required field!</span>
-		      <span class="error" ng-show="messageForm.input.$error.text">
-		        Can't be blank!</span>
-		    </div>
-		    <input placeholder="Enter your name" name="name" class="input-message" ng-model="contact.message.name" required/>
-		    <!-- ng-messages to show field is required -->
-		    <div ng-messages="messageForm.contact.message.name.$error">
-				<div ng-message="required">This field is required</div>
-			</div>
-			<div role="alert">
+		      <!-- <span class="error" ng-show="messageForm.name.$error.required">
+		        Required field</span><br> -->
+		    <span class="row message-sent" ng-show="contact.showMessage">{{contact.sentMessage}}</span><br>
+			<span ng-messages="messageForm.name.$error">
+				 <span ng-message="required">Required field</span>
+				 <span ng-message="minlength">Name is too short!.</span>
+		        <span ng-message="maxlength">Name is too long!.</span>
+			</span><br>
+
+		    <input placeholder="Enter your name" name="name" class="input-message" ng-model="contact.message.name" ng-minlength="2" ng-maxlength="45" required/><br>
+		   
 		      <span class="error" ng-show="messageForm.input.$error.required">
-		        Required field!</span>
+		        Required field</span>
 		      <span class="error" ng-show="messageForm.input.$error.email">
-		        Not valid email!</span>
-		    </div>
+		        Enter a valid email</span><br>
+
 		   <input  type="email" name="input" placeholder="Enter your email" class="input-message" ng-model="contact.message.email" required /><br />
 			
-			<div role="alert">
 		      <span class="error" ng-show="messageForm.area.$error.required">
-		        Required field!</span>
-		      <span class="error" ng-show="messageForm.input.$error.area">
-		        Cant be blank!</span>
-		    </div>
+		        Required field</span><br>
+		    
 		     <textarea name="area" class="message-text input-message" placeholder="Type a message" type="text" ng-model="contact.message.content" required/>
-		     <div ng-messages="messageForm.contact.message.content.$error">
-				<div ng-message="required">This field is required</div>
-				<div ng-message="maxlength">Message must not exceed 1000 characters</div>
-			</div>
-			<!-- Disable button if any of the inputs are empty -->
-			<!-- ng-disabled="!(!!contact.message.name || !!contact.message.email  || !!contact.message.content)" -->
+		   
 			<div ng-show="contact.showSign">{{contact.sendingMessage}}</div>
 		     <button ng-disabled="messageForm.$invalid" class="send-email" ng-click="contact.sendMessage(contact.message)">Send email</button>
  

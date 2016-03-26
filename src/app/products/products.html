@@ -27,14 +27,15 @@
           <h4>{{product.price | currency}}</h4>
         
         <button class="btn btn-primary btn-block" ng-click="prod.addProd(product.id)">Add to Cart</button>
- 
+
       </div>
      
     </div>
      <!-- Show this message if a product if not found. -->
-    <span class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</span>
+    <span class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</></span>
 
+ <script src="../bower_components/angular-cookies/angular-cookies.js"></script>
  
-  <!-- {{prod.products}} -->
 </div>
+
 

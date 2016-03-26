@@ -6,7 +6,7 @@
     .controller('ShoppingController', ShoppingController);
 
   /** @ngInject */
-  function ShoppingController($log,ProductService,$http,API) {
+  function ShoppingController($log,ProductService,$http) {
     var vm = this;
      vm.productsArray=[];
      vm.total=0;
@@ -16,10 +16,11 @@
     ProductService.getProducts().success(function(data){
         var productCart=data;
         $log.debug(productCart);
-         $http.get(API+'/cart.json')
-        .success(function(data) {
-          var carts = data; 
-          $log.debug("cart",carts);
+
+         $http.get('https://cart-project.herokuapp.com/cart.json').success(function(data){
+            var carts=data; 
+            // $log.debug("cart",carts);
+          
             if (Object.keys(carts).length === 0){
                  vm.message="Your cart is currently empty";
             }

@@ -6,24 +6,22 @@
     .controller('ProductsController', ProductsController);
 
   /** @ngInject */
-  function ProductsController($log,ProductService,$http,API) {
-    var vm = this;
+  function ProductsController($log,ProductService,$http,API,$cookies) {
+      var vm = this;
+      vm.addProd = addProd;
 
-    vm.addProd = addProd;
 
+      ProductService.getProducts().success(function(data){
+        vm.products=data;
+        
+      });
 
-    // $log.debug(vm.product);
-
-    ProductService.getProducts().success(function(data){
-      vm.products=data;
-      
-    });
-
-    function addProd(id){
-      
-      $log.debug(ProductService.addProduct(id));
-      
-    }
+      function addProd(id,title,image){
+        
+        $log.debug(ProductService.addProduct(id));
+        $log.debug("All products",$cookies.getAll());
+        $log.debug("total",ProductService.getTotal());
+      }
 
   }
 })();

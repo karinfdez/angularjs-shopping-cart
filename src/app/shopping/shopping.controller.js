@@ -19,7 +19,7 @@
 
          $http.get('https://cart-project.herokuapp.com/cart.json').success(function(data){
             var carts=data; 
-            // $log.debug("cart",carts);
+           
           
             if (Object.keys(carts).length === 0){
                  vm.message="Your cart is currently empty";

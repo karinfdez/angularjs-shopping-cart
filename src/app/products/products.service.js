@@ -56,7 +56,7 @@
                 productData.push(id,quantity, title, totalPrice);
 
                 // Saving for specific id the amount,product title and price
-                $cookies.putObject(id, productData);
+                $cookies.putObject(id,productData);
             },
 
             showProducts: function() {

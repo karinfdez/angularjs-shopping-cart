@@ -24,7 +24,7 @@
 			    		<!-- Product Title -->
 			    	<td>{{product[2]}}</td>
 			    	<!-- Amount of product -->
-			    	<td><a href="#"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product[1]}}<span ng-click="shop.addProdCart(product[0],product[2],product[3])" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>
+			    	<td><span ng-click="shop.removeProdCart(product[0],product[2],product[3])"  class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product[1]}}<span ng-click="shop.addProdCart(product[0],product[2],product[3])" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>
 			    	<!-- Price of product -->
 			    	<td>{{product[3] | currency}}</td>
 		  		</tr>	

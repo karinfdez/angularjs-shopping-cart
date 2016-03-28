@@ -6,24 +6,27 @@
     .controller('ShoppingController', ShoppingController);
 
   /** @ngInject */
-  function ShoppingController($log,ShoppingService,$http,$cookies) {
+  function ShoppingController($log,ShoppingService,$cookies,$scope,ProductService) {
     var vm = this;
     vm.emptyCart=emptyCart;
+    vm.addProdCart=addProdCart;
 
-    // $scope.getCart=getCart;
 
     function emptyCart(){
       ShoppingService.emptyCart();
+    
     }
+    
+     vm.productList=ShoppingService.cartProducts();
 
-    // function getCart(){
-    //   return $cookies.getAll();
-    // }
+     function addProdCart(id,title,price){
+        ProductService.addProduct(id,title,price);
+     }
 
     $log.debug("How is the cookie now:", $cookies.getAll());
 
-    vm.productList=ShoppingService.cartProducts();
-    $log.debug("products",vm.productList);
+   
+    // $log.debug("products",vm.productList);
     
   }
 })();

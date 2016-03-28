@@ -21,11 +21,13 @@
 			  </thead>
 			  <tbody>
 			    <tr ng-repeat='product in shop.productList'>
-			    	<td>{{product[1]}}</td>
-			    	<td>{{product[0]}}</td>
-			    	<td>{{product[2] | currency}}</td>
+			    		<!-- Product Title -->
+			    	<td>{{product[2]}}</td>
+			    	<!-- Amount of product -->
+			    	<td><a href="#"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product[1]}}<span ng-click="shop.addProdCart(product[0],product[2],product[3])" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>
+			    	<!-- Price of product -->
+			    	<td>{{product[3] | currency}}</td>
 		  		</tr>	
-			
 			</tbody>
 		  </table>
 	    </div>	

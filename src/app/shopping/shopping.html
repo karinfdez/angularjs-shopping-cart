@@ -1,4 +1,5 @@
-	<div class="row">
+	
+  	<div class="row">
     	<acme-navbar creation-date="main.creationDate"></acme-navbar>
     </div>
 	<div class="row">
@@ -7,9 +8,10 @@
 		
 		<a href="/#/products">Add products to cart</a>
 			
-			<div ng-hide="shop.productsArray==='undefined' || shop.productsArray==='null' || shop.productsArray.length===0">	
-				<a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="cart/destroy">
-				Empty Cart</a>	
+			<div ng-hide="shop.productsArray==='undefined' || shop.productsArray==='null' || shop.productsArray.length===0">
+				<button ng-click="shop.emptyCart()">Empty cart</button>	
+				<!-- <a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="cart/destroy">
+				Empty Cart</a>	 -->
 			</div>
 			<table ng-hide="shop.productsArray==='undefined' || shop.productsArray==='null' || shop.productsArray.length===0">
 			  <thead>
@@ -17,7 +19,6 @@
 			      <th>Product</th>
 			      <th>Amount</th>
 			      <th>Price</th>
-			      <th>Image</th>
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -25,7 +26,7 @@
 		  			<td>{{product.title}}</td>
 		  			<td><a href="/cart/{{product.id}}/remove"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product.amount}}  <a href="/cart/{{product.id}}/add"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>
 		  			<td>{{product.price| currency}}</td>
-		  			<td>{{product.image}}</td>
+		  			
 		  		</tr>	
 			
 			</tbody>
@@ -55,7 +56,8 @@
 	    </form>
 
 	  </div>
-		<div ng-show="shop.productsArray.length===0">
+		<div >
+		<!-- ng-show="shop.productsArray.length===0"> -->
 			 <p class="message-no-products">{{shop.message}}</p>
 
 		</div>

@@ -6,7 +6,7 @@
     .controller('ProductsController', ProductsController);
 
   /** @ngInject */
-  function ProductsController($log,ProductService,$http,API,$cookies) {
+  function ProductsController($log,ProductService,$cookies) {
       var vm = this;
       vm.addProd = addProd;
 
@@ -16,11 +16,11 @@
         
       });
 
-      function addProd(id,title,image){
+      function addProd(id){
+       
+        ProductService.addProduct(id);
+        $log.debug("cookies: ",$cookies.getAll());
         
-        $log.debug(ProductService.addProduct(id));
-        $log.debug("All products",$cookies.getAll());
-        $log.debug("total",ProductService.getTotal());
       }
 
   }

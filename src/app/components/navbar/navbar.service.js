@@ -3,10 +3,10 @@
 
   angular
     .module('shoppingCart')
-    .factory('ShoppingService', ShoppingService);
+    .factory('ShoppingSer', ShoppingSer);
 
   /** @ngInject */
-  function ShoppingService() {
+  function ShoppingSer() {
     
   }
 })();

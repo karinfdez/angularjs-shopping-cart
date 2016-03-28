@@ -1,5 +1,5 @@
 
-      <nav class="navbar navbar-default nav-wrapper" role="navigation">
+      <nav class="navbar navbar-default nav-wrapper navbar-fixed-top" role="navigation">
    <div class="container-fluid" id="navfluid">
        <div class="navbar-header">
            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigationbar">
@@ -17,7 +17,8 @@
                 <li><a class="header-font font-navbar" ng-href="#/contact">Contact</a></li>
                <!-- <li><a class="header-font font-navbar" href="./Wettbewerb.html">Wettbewerb</a></li>     -->
                <li><a class="header-font font-navbar" ng-href="#/products">Products</a></li>
-               <li><a class="header-font font-navbar" href="#/shopping"><img src="assets/images/cart.png">{{getTotal()}}</a></li>
+               <li><span><a class="header-font font-navbar" ng-href="#/shopping"><img src="assets/images/cart.png"></a></span></li>
+               <span class="header-font">{{getTotal()}}</span></li>
            </ul>
       </div><!-- /.navbar-collapse -->
    </div><!-- /.container-fluid -->

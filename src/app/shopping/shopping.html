@@ -8,12 +8,10 @@
 		
 		<a href="/#/products">Add products to cart</a>
 			
-			<div ng-hide="shop.productsArray==='undefined' || shop.productsArray==='null' || shop.productsArray.length===0">
+			<!-- <div ng-show='shop.getCart()'> -->
 				<button ng-click="shop.emptyCart()">Empty cart</button>	
-				<!-- <a data-confirm="Are you sure?" rel="nofollow" data-method="delete" href="cart/destroy">
-				Empty Cart</a>	 -->
-			</div>
-			<table ng-hide="shop.productsArray==='undefined' || shop.productsArray==='null' || shop.productsArray.length===0">
+			<!-- </div> -->
+			<table>
 			  <thead>
 			    <tr>
 			      <th>Product</th>
@@ -22,21 +20,22 @@
 			    </tr>
 			  </thead>
 			  <tbody>
-			    <tr ng-show="shop.productsArray!='undefined' && shop.productsArray!='null' && shop.productsArray.length!=0" ng-repeat="product in shop.productsArray">
-		  			<td>{{product.title}}</td>
-		  			<td><a href="/cart/{{product.id}}/remove"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product.amount}}  <a href="/cart/{{product.id}}/add"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>
-		  			<td>{{product.price| currency}}</td>
-		  			
+			    <tr ng-repeat='product in shop.productList'>
+			    	<td>{{product[1]}}</td>
+			    	<td>{{product[0]}}</td>
+			    	<td>{{product[2] | currency}}</td>
 		  		</tr>	
 			
 			</tbody>
 		  </table>
 	    </div>	
-		<div ng-hide="shop.productsArray==='undefined' || shop.productsArray==='null' || shop.productsArray.length===0">
+		<div >
 	        <p>Total QTY: {{shop.total}}</p>
 	        <p>Order Value: {{shop.totalPrice | currency}}</p>
+	    </div>
 	   
-		
+		<!-- Form for the buy now in paypal -->
+		<div >
 			<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 	        <input type="hidden" name="cmd" value="_xclick">
 	        <input type="hidden" name="business" value="karinfpe-store@yahoo.es">
@@ -53,17 +52,13 @@
 	        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
 			 <input type="image" src="http://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now">
 	        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	    </form>
+	      </form>
+	    </div>
 
-	  </div>
+
 		<div >
-		<!-- ng-show="shop.productsArray.length===0"> -->
-			 <p class="message-no-products">{{shop.message}}</p>
+			 <span class="message-no-products">{{shop.message}}</span>
 
 		</div>
-
-
-		
-	<!-- <p>Total amount: <%=number_to_currency(total, :unit=>'$')%></p> -->
 		
 	</div>

@@ -32,44 +32,34 @@
 
             return defered.promise;
         },
-        // getCartTotal : function() {
-        //     return $http({
-        //         url: API + '/cart.json',
-        //         method: 'GET'
-        //     })
-        // },
-        addProduct: function(id){
+        
+        addProduct: function(id,title,price){
+            $log.debug("title",title);
+            $log.debug("price",price);
             var quantity=0;
+            var productData=[];
 
             // If cookie is undefined, create a new one:
             $log.debug("id",id);
             if (!($cookies.get(id))){
                 quantity=1;
-                $log.debug("entering here");
-                $cookies.put(id,quantity);
-                $cookies.remove('__utma');
-                $cookies.remove('__utmz');
-                $cookies.remove('XSRF-TOKEN');
-                $cookies.remove('SQLiteManager_currentLangue');
+                
             }else{
-              $log.debug("before:", $cookies.get(id));
-              quantity=parseInt($cookies.get(id))+1;
-              $log.debug("quantity",quantity);
-              $cookies.put(id,quantity);
+              $log.debug("before:", $cookies.getAll());
+              var array = JSON.parse($cookies.get(id));
+              quantity=array[0]+1;
+              $log.debug("This quantity",quantity);
+             
             }
-             // productsArray.push({id:id,amount: quantity,title:title});
-             // return productsArray;
-        },
-        // getTotal: function(){
-          
-        //   $log.debug("cookies",$cookies.getAll());
-        //   var total=0;
-        //   for ( var key in $cookies.getAll()){
-        //     total+=parseInt($cookies.get(key));
-        //   }
-        //   return total;
-
-        // },
+           
+            productData.push(quantity);
+            productData.push(title);
+            productData.push(price);
+            $log.debug("array data: ",productData);
+            // Saving for specific id the amount and product title
+             $cookies.putObject(id,productData);
+            },
+      
         showProducts: function(){
 
           var products;

@@ -25,8 +25,9 @@
          	 <a data="{{product.id}}" href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
          </div>
           <h4>{{product.price | currency}}</h4>
-        
-        <button class="btn btn-primary btn-block" ng-click="prod.addProd(product.id)">Add to Cart</button>
+       
+          <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button>
+      
 
       </div>
      

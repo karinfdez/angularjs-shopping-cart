@@ -19,8 +19,15 @@
       function addProd(id,title,price){
        
         ProductService.addProduct(id,title,price);
-        // $log.debug("cookies: ",$cookies.getAll());
+        
 
       }
-  }
-})();
+        vm.getProductDetails=function(id){
+          ProductService.getProductDetails(id).success(function(data){
+            vm.theProduct=data;
+
+        });
+        }
+        
+      }
+  })();

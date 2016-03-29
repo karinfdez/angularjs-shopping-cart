@@ -20,7 +20,7 @@
     <!-- Return the product filtering by title of user input. -->
       <div class="col-xs-5 col-md-4 col-lg-4 each_product" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
         
-          <h3><a data="{{product.id}}" href="#/product/{{product.id}}">{{product.title}}</a></h3>
+          <h3><a ng-href="#" ng-click="prod.getProductDetails(product.id)">{{product.title}}</a></h3>
           <div class="image-size">
          	 <a data="{{product.id}}" href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
          </div>
@@ -29,7 +29,6 @@
          <!--  <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button> -->
          <span ng-click="prod.addProd(product.id,product.title,product.price)" >Add to cart</span>
       
-
       </div>
      
     </div>

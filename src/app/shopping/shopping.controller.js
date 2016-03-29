@@ -34,7 +34,8 @@
      vm.addMore=function(id,array){
       var array=JSON.parse(array);
       var title=array[1];
-      var price=array[2];
+      var price=array[3];
+      
       addProdCart(id,title,price);
      }
 
@@ -45,13 +46,21 @@
      function removeProdCart(id,array){
         var array=JSON.parse(array);
         var title=array[1];
-        var price=array[2];
-        ShoppingService.removeProduct(id,title,price);
+        var originalPrice=array[3];
+        ShoppingService.removeProduct(id,title,originalPrice);
      }
 
      function removeProd(id){
       
         $cookies.remove(id);
+     }
+
+     ProductService.getProducts().success(function(data){
+        vm.originalProducts=data;
+        
+      });
+     vm.totalProducts=function(){
+      return ShoppingService.getTotal();
      }
 
     $log.debug("How is the cookie now:", $cookies.getAll());

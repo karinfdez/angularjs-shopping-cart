@@ -54,7 +54,7 @@
                 if (array[0]>1){
                   quantity=array[0]-1;
                   totalPrice= parseFloat(array[2])-parseFloat(price);
-                  productData.push(quantity, title, totalPrice);
+                  productData.push(quantity, title, totalPrice,price);
                   $cookies.putObject(id, productData);
                   
                 }else{

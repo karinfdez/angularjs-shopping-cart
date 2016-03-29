@@ -38,6 +38,7 @@
                 var quantity = 0;
                 var totalPrice = 0;
                 var productData = [];
+                var originalPrice=price;
                 // If id exist, evaluates to false,otherwise create a new one
               
                 if (!($cookies.get(id))) {
@@ -48,11 +49,12 @@
                     // Position 0 is for quantity.
                     $log.debug("quantity",array[0]);
                     quantity = array[0] + 1;
-                    totalPrice = parseFloat(array[2]) + parseFloat(price);
+                    $log.debug("Original price",array[3]);
+                    totalPrice = parseFloat(array[2]) + parseFloat(originalPrice);
                 }
 
-                productData.push(quantity, title, totalPrice);
-                // Saving for specific id the amount,product title and price
+                productData.push(quantity, title, totalPrice,originalPrice);
+                // Saving for specific id the amount,product title,price and original price
                 $log.debug("The id",id);
                 $cookies.putObject(id,productData);
             },

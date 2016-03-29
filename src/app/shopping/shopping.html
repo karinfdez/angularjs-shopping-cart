@@ -20,13 +20,23 @@
 			    </tr>
 			  </thead>
 			  <tbody>
-			    <tr ng-repeat='product in shop.productList'>
+			    <tr ng-repeat="(key, value) in shop.productList()">
+							<!-- Product Title -->
+			    	 <td> {{(value | toArray)[1]}} </td>
+			    	  	<!-- Product Amount -->
+			    	 <td> {{(value | toArray)[0]}} </td>
+			    	  	<!-- Product Price -->
+			    	 <td> {{(value | toArray)[2] | currency}} </td>
+
+			    	 <td ng-click='shop.removeProd(key)'>Remove product</td>
+			    <!-- <tr ng-repeat='product in shop.productList'> -->
 			    		<!-- Product Title -->
-			    	<td>{{product[2]}}</td>
+			    	<!-- <td>{{product[2]}}</td>
 			    	<!-- Amount of product -->
-			    	<td><span ng-click="shop.removeProdCart(product[0],product[2],product[3])"  class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product[1]}}<span ng-click="shop.addProdCart(product[0],product[2],product[3])" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>
+			    <!-- 	<td><span ng-click="shop.removeProdCart(product[0],product[2],product[3])"  class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product[1]}}<span ng-click="shop.addProdCart(product[0],product[2],product[3])" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>  -->
 			    	<!-- Price of product -->
-			    	<td>{{product[3] | currency}}</td>
+			    	<!-- <td>{{product[3] | currency}}</td> -->
+			    	
 		  		</tr>	
 			</tbody>
 		  </table>

@@ -23,8 +23,8 @@
                     // To convert from string to array
                     var productInfo = JSON.parse($cookies.get(key));
                     $log.debug("product info:", productInfo);
-                    // Position 1 is the amount and position 2 is the title
-                    total += parseInt(productInfo[1]);
+                    // Position 0 is the amount and position 1 is the title
+                    total += parseInt(productInfo[0]);
                 }
 
                 return total;
@@ -48,7 +48,7 @@
                 var array=JSON.parse($cookies.get(id));
                 // if amount is greater than 0
                 if (array[1]>1){
-                  var array = JSON.parse($cookies.get(id));
+                  array = JSON.parse($cookies.get(id));
                   quantity=array[1]-1;
                   totalPrice= parseFloat(array[3])-parseFloat(price);
                   productData.push(id,quantity, title, totalPrice);

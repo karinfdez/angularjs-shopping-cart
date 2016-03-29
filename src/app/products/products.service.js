@@ -39,23 +39,21 @@
                 var totalPrice = 0;
                 var productData = [];
 
-                // If cookie is undefined, create a new one:
+                // If id exist, evaluates to false,otherwise create a new one
+                // $log.debug("undefined?",!($cookies.get(id)));
                 if (!($cookies.get(id))) {
                     quantity = 1;
                     totalPrice = price;
-
                 } else {
-                    $log.debug("before:", $cookies.getAll());
                     var array = JSON.parse($cookies.get(id));
-                    // Position 1 is for quantity.
-                    quantity = array[1] + 1;
-                    totalPrice = parseFloat(array[3]) + parseFloat(price);
-
+                    // Position 0 is for quantity.
+                    quantity = array[0] + 1;
+                    totalPrice = parseFloat(array[2]) + parseFloat(price);
                 }
 
-                productData.push(id,quantity, title, totalPrice);
-
+                productData.push(quantity, title, totalPrice);
                 // Saving for specific id the amount,product title and price
+                $log.debug("The id",id);
                 $cookies.putObject(id,productData);
             },
 

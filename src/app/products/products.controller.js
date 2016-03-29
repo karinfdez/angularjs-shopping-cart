@@ -6,10 +6,9 @@
     .controller('ProductsController', ProductsController);
 
   /** @ngInject */
-  function ProductsController($log,ProductService,$cookies) {
+  function ProductsController($log,ProductService) {
       var vm = this;
       vm.addProd = addProd;
-      vm.deactivate=false;
 
 
       ProductService.getProducts().success(function(data){
@@ -20,7 +19,7 @@
       function addProd(id,title,price){
        
         ProductService.addProduct(id,title,price);
-        $log.debug("cookies: ",$cookies.getAll());
+        // $log.debug("cookies: ",$cookies.getAll());
 
       }
   }

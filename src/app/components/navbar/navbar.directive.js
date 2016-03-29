@@ -30,7 +30,7 @@
       }
 
       $log.debug("total products", ShoppingService.getTotal());
-      vm.relativeDate = moment(vm.creationDate).fromNow();
+      // vm.relativeDate = moment(vm.creationDate).fromNow();
   }
 
 

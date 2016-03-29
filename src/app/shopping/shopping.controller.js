@@ -24,22 +24,28 @@
       ShoppingService.emptyCart();
     
     }
-    
 
      vm.productList=function(){
       return $cookies.getAll();
      }
-     
-
 
      $log.debug("List product", vm.productList);
 
+     vm.addMore=function(id,array){
+      var array=JSON.parse(array);
+      var title=array[1];
+      var price=array[2];
+      addProdCart(id,title,price);
+     }
 
      function addProdCart(id,title,price){
         ProductService.addProduct(id,title,price);
      }
 
-     function removeProdCart(id,title,price){
+     function removeProdCart(id,array){
+        var array=JSON.parse(array);
+        var title=array[1];
+        var price=array[2];
         ShoppingService.removeProduct(id,title,price);
      }
 

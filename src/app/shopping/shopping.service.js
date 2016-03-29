@@ -42,16 +42,19 @@
                 return productList;
             },
            removeProduct : function(id,title,price){
+            $log.debug("price",price);
                 var quantity = 0;
                 var totalPrice = 0;
                 var productData = [];
                 var array=JSON.parse($cookies.get(id));
+                $log.debug("amount",array[0]);
+                $log.debug("title",array[1]);
+                $log.debug("price",array[2]);
                 // if amount is greater than 0
-                if (array[1]>1){
-                  array = JSON.parse($cookies.get(id));
-                  quantity=array[1]-1;
-                  totalPrice= parseFloat(array[3])-parseFloat(price);
-                  productData.push(id,quantity, title, totalPrice);
+                if (array[0]>1){
+                  quantity=array[0]-1;
+                  totalPrice= parseFloat(array[2])-parseFloat(price);
+                  productData.push(quantity, title, totalPrice);
                   $cookies.putObject(id, productData);
                   
                 }else{

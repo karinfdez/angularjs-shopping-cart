@@ -38,15 +38,15 @@
                 var quantity = 0;
                 var totalPrice = 0;
                 var productData = [];
-
                 // If id exist, evaluates to false,otherwise create a new one
-                // $log.debug("undefined?",!($cookies.get(id)));
+              
                 if (!($cookies.get(id))) {
                     quantity = 1;
                     totalPrice = price;
                 } else {
                     var array = JSON.parse($cookies.get(id));
                     // Position 0 is for quantity.
+                    $log.debug("quantity",array[0]);
                     quantity = array[0] + 1;
                     totalPrice = parseFloat(array[2]) + parseFloat(price);
                 }

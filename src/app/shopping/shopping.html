@@ -24,18 +24,12 @@
 							<!-- Product Title -->
 			    	 <td> {{(value | toArray)[1]}} </td>
 			    	  	<!-- Product Amount -->
-			    	 <td> {{(value | toArray)[0]}} </td>
+			    	 <td><span class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="shop.removeProdCart(key,value)" ></span><span>{{(value | toArray)[0]}} </span><span class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="shop.addMore(key,value)"></span></td>
+			    	<!-- <td><span>{{(value | toArray)[0]}} </span></td> -->
+			    	
 			    	  	<!-- Product Price -->
 			    	 <td> {{(value | toArray)[2] | currency}} </td>
-
 			    	 <td ng-click='shop.removeProd(key)'>Remove product</td>
-			    <!-- <tr ng-repeat='product in shop.productList'> -->
-			    		<!-- Product Title -->
-			    	<!-- <td>{{product[2]}}</td>
-			    	<!-- Amount of product -->
-			    <!-- 	<td><span ng-click="shop.removeProdCart(product[0],product[2],product[3])"  class="glyphicon glyphicon-minus" aria-hidden="true"></span></a>{{product[1]}}<span ng-click="shop.addProdCart(product[0],product[2],product[3])" class="glyphicon glyphicon-plus" aria-hidden="true"></span></a></td>  -->
-			    	<!-- Price of product -->
-			    	<!-- <td>{{product[3] | currency}}</td> -->
 			    	
 		  		</tr>	
 			</tbody>
@@ -66,7 +60,6 @@
 	        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 	      </form>
 	    </div>
-
 
 		<div >
 			 <span class="message-no-products">{{shop.message}}</span>

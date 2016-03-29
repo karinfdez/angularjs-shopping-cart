@@ -63,7 +63,14 @@
       return ShoppingService.getTotal();
      }
 
-    $log.debug("How is the cookie now:", $cookies.getAll());
+     vm.totalPrice=function(){
+      var total=0;
+      for (var key in $cookies.getAll()){
+        var array=JSON.parse($cookies.get(key));
+        total+=parseFloat(array[2]);  
+      }
+      return total;
+     }
 }
 
 })();

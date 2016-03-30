@@ -1,42 +1,36 @@
 <div class="container-fluid">
-<!-- To add each navbar -->
- 
-  	<div class="row">
-    	<acme-navbar creation-date="main.creationDate"></acme-navbar>
-    </div>
+  <!-- To add each navbar -->
+  
+  <div class="row">
+  <acme-navbar creation-date="main.creationDate"></acme-navbar>
+</div>
+<!-- Form to search for specific product -->
+<div class="row product-search">
+  <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+    <form class="user_form" name="myForm">
+      <input class="product-search-input" type="text" ng-model="prod.userInput" placeholder="Search Product by Title">
+      <img class="loupe-icon" src="assets/images/loupe.png" id="input_img">
+    </form>
+  </div>
+</div>
+<section ng-show="prod.alertDisplayed"> Product added to cart</section>
+<!-- Return the product filtering by title of user input. -->
+<div class=" product_images col-md-4 col-lg-4" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
 
-    <!-- Form to search for specific product -->
-   <div class="row product-search">
-   		<div class="col-xs-12 col-lg-8 col-lg-offset-2">
-		    <form class="user_form" name="myForm">
-		      <input class="product-search-input" type="text" ng-model="prod.userInput" placeholder="Search Product by Title">
-		       <img class="loupe-icon" src="assets/images/loupe.png" id="input_img">
-		    </form>
-	    </div>
-	</div>
+<!-- <div class="image-size"> -->
+<a class='image-size' ng-href="#/products/{{product.id}}" data="{{product.id}}" ng-href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
+<!-- </div> -->
+<div>
+  <h3><a ng-href="#/products/{{product.id}}" ng-click="prod.getDetails(product.id)">{{product.title}}</a></h3><h3 class="price-product">{{product.price | currency}}</h3>
+</div>
+<!--  <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button> -->
+<div class="button-add" ng-click="prod.addProd(product.id,product.title,product.price)" >Add to cart</div>
 
-     <section ng-show="prod.alertDisplayed"> Product added to cart</section>
-    <div class="row product_images">
-    <!-- Return the product filtering by title of user input. -->
-      <div class=" col-md-4 col-lg-4" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
-        
-          <!-- <div class="image-size"> -->
-         	 <a class='image-size' ng-href="#/products/{{product.id}}" data="{{product.id}}" ng-href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
-         <!-- </div> -->
-         <div>
-           <h3><a ng-href="#/products/{{product.id}}" ng-click="prod.getDetails(product.id)">{{product.title}}</a></h3><h3 class="price-product">{{product.price | currency}}</h3>
-          </div>
-         <!--  <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button> -->
-         <div class="button-add" ng-click="prod.addProd(product.id,product.title,product.price)" >Add to cart</div>
-      
-      </div>
-     
-    </div>
-     <!-- Show this message if a product if not found. -->
-    <span class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</></span>
-
- <script src="../bower_components/angular-cookies/angular-cookies.js"></script>
- 
 </div>
 
+</div>
+<!-- Show this message if a product if not found. -->
+<span class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</></span>
+<script src="../bower_components/angular-cookies/angular-cookies.js"></script>
 
+</div>

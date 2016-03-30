@@ -29,10 +29,10 @@
       return $cookies.getAll();
      }
 
-     $log.debug("List product", vm.productList);
+     // $log.debug("List product", vm.productList);
 
      vm.addMore=function(id,array){
-      var array=JSON.parse(array);
+      array=JSON.parse(array);
       var title=array[1];
       var price=array[3];
       
@@ -44,7 +44,7 @@
      }
 
      function removeProdCart(id,array){
-        var array=JSON.parse(array);
+        array=JSON.parse(array);
         var title=array[1];
         var originalPrice=array[3];
         ShoppingService.removeProduct(id,title,originalPrice);

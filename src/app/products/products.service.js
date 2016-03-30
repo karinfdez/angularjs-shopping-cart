@@ -9,29 +9,29 @@
     function ProductService($http, $q, API, $log, $cookies) {
 
 
-        return {
-            getProducts: function() {
-                return $http({
-                    url: API + '/products.json',
-                    method: 'GET'
-                })
-            },
-            getProductDetails: function(argument) {
+    return {
+        getProducts: function() {
+            return $http({
+                url: API + '/products.json',
+                method: 'GET'
+            })
+        },
+        getProductDetails: function(argument) {
 
-            	var url = API+'/products/' + argument;
-                var defered = $q.defer();
+        	var url = API+'/products/' + argument;
+            var defered = $q.defer();
 
-                $http.get(url).then(
-                  function(response) {
-                    defered.resolve(response);
-                  },
-                  function(error){
-                    defered.reject(error);
-                    
-                  });
+            $http.get(url).then(
+              function(response) {
+                defered.resolve(response);
+              },
+              function(error){
+                defered.reject(error);
+                
+              });
 
-                return defered.promise;
-            },
+            return defered.promise;
+        },
 
             addProduct: function(id, title, price) {
 

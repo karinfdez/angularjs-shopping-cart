@@ -1,46 +1,42 @@
 <div class="container-fluid">
-
-	 <div class="row">
-    	<acme-navbar creation-date="main.creationDate"></acme-navbar>
-  	</div>
-  	<div class="row">
-  		<div class="col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-4">
-  			<p class="message-email">Please fill the information below in order to contact Karin Fernandez.</p>
-  		</div>
-  	</div>
-	<div class="row email-form">
-		<div class="col-xs-10 col-xs-offset-2 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-4">
+	<div class="row">
+	<acme-navbar creation-date="main.creationDate"></acme-navbar>
+</div>
+<div class="row">
+	<div class="col-xs-8 col-xs-offset-2 col-lg-6 col-lg-offset-4">
+		<p class="message-email">Please fill the information below in order to contact Karin Fernandez.</p>
+	</div>
+</div>
+<div class="row email-form">
+	<div class="col-xs-10 col-xs-offset-2 col-md-10 col-md-offset-2 col-lg-6 col-lg-offset-4">
 		
-
 		<!-- Show this message when email is sent for a few seconds -->
 		<form validate class="simple-form" name="messageForm">
-		      <!-- <span class="error" ng-show="messageForm.name.$error.required">
-		        Required field</span><br> -->
-		    <span class="row message-sent" ng-show="contact.showMessage">{{contact.sentMessage}}</span><br>
+			<!-- <span class="error" ng-show="messageForm.name.$error.required">
+			Required field</span><br> -->
+			<span class="row message-sent" ng-show="contact.showMessage">{{contact.sentMessage}}</span><br>
 			<span ng-messages="messageForm.name.$error">
-				 <span ng-message="required">Required field</span>
-				 <span ng-message="minlength">Name is too short!.</span>
-		        <span ng-message="maxlength">Name is too long!.</span>
+				<span ng-message="required">Required field</span>
+				<span ng-message="minlength">Name is too short!.</span>
+				<span ng-message="maxlength">Name is too long!.</span>
 			</span><br>
-
-		    <input placeholder="Enter your name" name="name" class="input-message" ng-model="contact.message.name" ng-minlength="2" ng-maxlength="45" required/><br>
-		   
-		      <span class="error" ng-show="messageForm.input.$error.required">
-		        Required field</span>
-		      <span class="error" ng-show="messageForm.input.$error.email">
-		        Enter a valid email</span><br>
-
-		   <input  type="email" name="input" placeholder="Enter your email" class="input-message" ng-model="contact.message.email" required /><br />
+			<input placeholder="Enter your name" name="name" class="input-message" ng-model="contact.message.name" ng-minlength="2" ng-maxlength="45" required/><br>
 			
-		      <span class="error" ng-show="messageForm.area.$error.required">
-		        Required field</span><br>
-		    
-		     <textarea name="area" class="message-text input-message" placeholder="Type a message" type="text" ng-model="contact.message.content" required/>
-		   
+			<span class="error" ng-show="messageForm.input.$error.required">
+			Required field</span>
+			<span class="error" ng-show="messageForm.input.$error.email">
+			Enter a valid email</span><br>
+			<input  type="email" name="input" placeholder="Enter your email" class="input-message" ng-model="contact.message.email" required /><br />
+			
+			<span class="error" ng-show="messageForm.area.$error.required">
+			Required field</span><br>
+			
+			<textarea name="area" class="message-text input-message" placeholder="Type a message" type="text" ng-model="contact.message.content" required/>
+			
 			<div ng-show="contact.showSign">{{contact.sendingMessage}}</div>
-		     <button ng-disabled="messageForm.$invalid" class="send-email" ng-click="contact.sendMessage(contact.message)">Send email</button>
- 
-		 </form>
-		</div>
+			<button ng-disabled="messageForm.$invalid" class="send-email" ng-click="contact.sendMessage(contact.message)">Send email</button>
+			
+		</form>
 	</div>
- </div>
+</div>
+</div>

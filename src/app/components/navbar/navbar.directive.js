@@ -23,13 +23,13 @@
 
     /** @ngInject */
     function NavbarController(moment,API,$log,$http,ShoppingService,$scope) {
-      var vm = this;
+      // var vm = this;
       // Update the total in the navbar cart.
       $scope.getTotal=function(){
        return ShoppingService.getTotal();
       }
 
-      $log.debug("total products", ShoppingService.getTotal());
+      // $log.debug("total products", ShoppingService.getTotal());
       // vm.relativeDate = moment(vm.creationDate).fromNow();
   }
 

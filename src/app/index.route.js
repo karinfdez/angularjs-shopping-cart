@@ -32,8 +32,14 @@
         controller: 'ShoppingController',
         controllerAs: 'shop'
       })
+      .state('product',{
+        url: '/products/:id',
+        templateUrl: 'app/products/product.html',
+        controller: 'ProductsController',
+        controllerAs: 'prod'
+      })
 
-    $urlRouterProvider.otherwise('/');
+     $urlRouterProvider.otherwise('/');
   }
 
 })();

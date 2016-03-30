@@ -3,20 +3,21 @@
     	<acme-navbar creation-date="main.creationDate"></acme-navbar>
     </div>
 	<div class="row">
-	<div class="container">
-		<h2>Shopping Cart</h2>
+	<div class="container col-xs-10 col-xs-offset-1 col-lg-6 col-lg-offset-3 table-container">
+		<h2 class="shop-title">Shopping Cart</h2>
 		
-		<a href="/#/products">Add products to cart</a>
-			
-			<!-- <div ng-show='shop.getCart()'> -->
-				<button ng-click="shop.emptyCart()">Empty cart</button>	
-			<!-- </div> -->
-			<table>
+		<div class="links-shopping">
+			<a class="color-links padding-product-cart" href="/#/products">Add products to cart</a>
+				
+			<a class="color-links" ng-href="#/shopping" ng-click="shop.emptyCart()">Empty cart</a>	
+		</div>
+				
+			<table class="table">
 			  <thead>
 			    <tr>
-			      <th>Product</th>
-			      <th>Amount</th>
-			      <th>Price</th>
+			      <th class="padding-col">Product</th>
+			      <th class="padding-col">Amount</th>
+			      <th class="padding-col">Price</th>
 			    </tr>
 			  </thead>
 			  <tbody>
@@ -24,7 +25,7 @@
 							<!-- Product Title -->
 			    	 <td> {{(value | toArray)[1]}} </td>
 			    	  	<!-- Product Amount -->
-			    	 <td><span class="glyphicon glyphicon-minus" aria-hidden="true" ng-click="shop.removeProdCart(key,value,product.price)" ></span><span>{{(value | toArray)[0]}} </span><span class="glyphicon glyphicon-plus" aria-hidden="true" ng-click="shop.addMore(key,value)"></span></td>
+			    	 <td><span class="glyphicon glyphicon-minus minus-icon" aria-hidden="true" ng-click="shop.removeProdCart(key,value,product.price)" ></span><span>{{(value | toArray)[0]}} </span><span class="glyphicon glyphicon-plus plus-icon" aria-hidden="true" ng-click="shop.addMore(key,value)"></span></td>
 
 			    	  	<!-- Product Price -->
 			    	 <td> {{(value | toArray)[2] | currency}} </td>
@@ -33,12 +34,13 @@
 		  		</tr>	
 			</tbody>
 		  </table>
-	    </div>	
-		<div >
-	        <p>Total QTY: {{shop.totalProducts()}}</p>
-	        <p>Order Value: {{shop.totalPrice() | currency}}</p>
+		  <div class="table">
+	        <p class="totalprod">Total QTY: {{shop.totalProducts()}}</p>
+	        <p class="totalprod">Order Value: {{shop.totalPrice() | currency}}</p>
 	    </div>
 	   
+	   
+	   	
 		<!-- Form for the buy now in paypal -->
 		<div >
 			<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
@@ -54,7 +56,7 @@
 	        <input type="hidden" name="tax_rate" value="14">
 	        <input type="hidden" name="shipping" value="7.50">
 	        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-			 <input type="image" src="http://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now">
+			   <input type="image" src="http://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now">
 	        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 	      </form>
 	    </div>
@@ -63,5 +65,5 @@
 			 <span class="message-no-products">{{shop.message}}</span>
 
 		</div>
-		
+		 </div>	
 	</div>

@@ -18,10 +18,19 @@
             },
             getProductDetails: function(argument) {
 
-            	return $http({
-            			url: API+'/products/' + argument,
-            			method: 'GET'
-            	})
+            	var url = API+'/products/' + argument;
+                var defered = $q.defer();
+
+                $http.get(url).then(
+                  function(response) {
+                    defered.resolve(response);
+                  },
+                  function(error){
+                    defered.reject(error);
+                    
+                  });
+
+                return defered.promise;
             },
 
             addProduct: function(id, title, price) {

@@ -11,7 +11,7 @@
       // $log.debug("route",$routeParams);
       var vm = this;
       vm.addProd = addProd;
-      
+      vm.show=false;
 
       ProductService.getProducts().success(function(data){
         // $log.debug(data);
@@ -19,9 +19,11 @@
         
       });
 
-      function addProd(id,title,price){
+      function addProd(product){
        
-        ProductService.addProduct(id,title,price);
+        ProductService.addProduct(product.id,product.title,product.price);
+        // vm.show=true;
+        // $timeout(function () { vm.show= false }, 2000);
 
       }
 

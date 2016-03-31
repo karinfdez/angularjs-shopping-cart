@@ -8,7 +8,7 @@
     // This filter let me convert string to array the variables in the view
     .filter('toArray',function(){
       return function(text){
-        return JSON.parse(text);
+        return angular.fromJson(text);
       }
     })
 
@@ -26,6 +26,7 @@
 
     function emptyCart(){
       ShoppingService.emptyCart();
+      productList();
     }
 
     function productList(){
@@ -40,7 +41,7 @@
      // $log.debug("List product", vm.productList);
 
      vm.addMore=function(id,array){
-      array=JSON.parse(array);
+      array=ProductService.convertToJson(array);
       var title=array[1];
       var price=array[3];
       
@@ -53,7 +54,7 @@
      }
 
      function removeProdCart(id,array){
-        array=JSON.parse(array);
+        array=ProductService.convertToJson(array);
         var title=array[1];
         var originalPrice=array[3];
         ShoppingService.removeProduct(id,title,originalPrice);
@@ -76,7 +77,7 @@
      vm.totalPrice=function(){
       var total=0;
       for (var key in $cookies.getAll()){
-        var array=JSON.parse($cookies.get(key));
+        var array=ProductService.convertToJson($cookies.get(key));
         total+=parseFloat(array[2]);  
       }
       return total;

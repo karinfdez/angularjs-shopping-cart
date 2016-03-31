@@ -24,7 +24,8 @@
   <h3><a ng-href="#/products/{{product.id}}" ng-click="prod.getDetails(product.id)">{{product.title}}</a></h3><h3 class="price-product">{{product.price | currency}}</h3>
 </div>
 <!--  <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button> -->
-<div class="button-add" ng-click="prod.addProd(product.id,product.title,product.price)" >Add to cart</div>
+<div class="button-add" ng-click="prod.addProd(product)" >Add to cart</div>
+<div ng-class="{'hideMessage':!prod.show}">Product added to cart</div>
 
 </div>
 

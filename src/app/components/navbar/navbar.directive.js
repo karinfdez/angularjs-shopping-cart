@@ -22,10 +22,10 @@
   }
 
     /** @ngInject */
-    function NavbarController(moment,API,$log,$http,ShoppingService,$scope) {
-      // var vm = this;
+    function NavbarController(moment,API,$log,$http,ShoppingService) {
+      var vm = this;
       // Update the total in the navbar cart.
-      $scope.getTotal=function(){
+      vm.getTotal=function(){
        return ShoppingService.getTotal();
       }
 

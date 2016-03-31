@@ -15,7 +15,7 @@
 			<!-- <span class="error" ng-show="messageForm.name.$error.required">
 			Required field</span><br> -->
 		  <!-- When showMessage is false, then I add myclass to hide content. -->
-			<span class="row message-sent" ng-class="{'hideMessage':!contact.showMessage}">Thanks, your message have been sent to Karin Fernandez.</span>
+			<span class="row message-sent" ng-class="{'hideMessage':!contact.showMessage}">Thanks, your message have been sent.</span>
 			<br>
 			<span ng-messages="messageForm.name.$error">
 				<span ng-message="required">Required field</span>
@@ -35,6 +35,7 @@
 			
 			<textarea name="area" class="color-input message-text input-message" placeholder="Type a message" type="text" ng-model="contact.message.content" required/>
 			<button ng-disabled="messageForm.$invalid" class="send-email" ng-click="contact.sendMessage(contact.message)">Send email</button>
+			<!-- this is the class for the spinning -->
 			<div class="loader position-loader" ng-show="contact.showSign"></div>
 		</form>
 	</div>

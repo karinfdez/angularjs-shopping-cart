@@ -39,24 +39,21 @@
             var totalPrice = 0;
             var productData = [];
             var originalPrice=price;
+            var array=[];
             // If id exist, evaluates to false,otherwise create a new one
-          
+         
             if (!($cookies.get(id))) {
                 quantity = 1;
-                totalPrice = price;
+                totalPrice = price; 
             } else {
-                var array = JSON.parse($cookies.get(id));
-                // Position 0 is for quantity.
-                $log.debug("quantity",array[0]);
-                quantity = array[0] + 1;
-                $log.debug("Original price",array[3]);
-                totalPrice = parseFloat(array[2]) + parseFloat(originalPrice);
+              array=this.convertToJson($cookies.get(id));
+               // Position 0 is for quantity.
+              quantity = parseInt(array[0])+1;
+              totalPrice = parseFloat(array[2]) + parseFloat(originalPrice);
             }
+              productData.push(quantity, title, totalPrice,originalPrice);
+              $cookies.putObject(id,productData);
 
-            productData.push(quantity, title, totalPrice,originalPrice);
-            // Saving for specific id the amount,product title,price and original price
-            $log.debug("The id",id);
-            $cookies.putObject(id,productData);
         },
 
             showProducts: function() {
@@ -68,6 +65,9 @@
                     products = "Your cart is currently empty";
                 }
                 return products;
+            },
+            convertToJson: function(text){
+              return angular.fromJson(text);
             }
 
         }

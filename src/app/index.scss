@@ -134,11 +134,11 @@ padding-top: 10px;
 }
 // Contact page
 .input-message{
-width: 70%;
+width: 80%;
 margin-bottom:20px;
 font-size:18px;
 border:none;
-background-color:beige;
+background-color:rgb(246,246,239);
 }
 .send-email{
 width: 140px;
@@ -461,10 +461,13 @@ margin-top:100px;
 p.message-email{
 font-size:22px;
 padding-top: 5%;
-// padding-left: 30px;
+padding-left: 100px;
 }
 .message-sent{
-	padding-left: 60px;
+	padding-left: 120px;
+}
+.send-email{
+	margin-left: 30%;
 }
 }
 /**

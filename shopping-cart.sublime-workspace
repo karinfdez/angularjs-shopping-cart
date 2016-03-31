@@ -1,0 +1,2590 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"$route",
+				"$routeParams	AngularJS"
+			],
+			[
+				"getProducts",
+				"getProductDetails"
+			],
+			[
+				"original",
+				"originalPrice"
+			],
+			[
+				"get",
+				"getTotal"
+			],
+			[
+				"total",
+				"totalPrice"
+			],
+			[
+				"shopping",
+				"ShoppingService"
+			],
+			[
+				"product",
+				"productList"
+			],
+			[
+				"empty",
+				"emptyCart"
+			],
+			[
+				"emp",
+				"emptyCart"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"message-",
+				"message-no-products"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"show",
+				"showSign"
+			],
+			[
+				"sen",
+				"sendingMessage"
+			],
+			[
+				"Message",
+				"MessageCtrl"
+			],
+			[
+				"Messa",
+				"MessageCtrl"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ng-cl",
+				"ng-click	AngularJS"
+			],
+			[
+				"Prod",
+				"ProductService"
+			],
+			[
+				"$s",
+				"$scope	AngularJS"
+			],
+			[
+				"an",
+				"angular	AngularJS"
+			],
+			[
+				"me",
+				"message"
+			],
+			[
+				"ng-",
+				"ng-valid"
+			],
+			[
+				"ng-valid",
+				"ng-valid-parse"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"prod",
+				"productsArray"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"image_",
+				"image_galleries"
+			],
+			[
+				"curren",
+				"current_user"
+			],
+			[
+				"index",
+				"index_map"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"sandwich",
+				"sandwich_id"
+			],
+			[
+				"ingre",
+				"ingredient_id"
+			],
+			[
+				"if",
+				"if	ERB if"
+			],
+			[
+				"image",
+				"imageTag"
+			],
+			[
+				"artis",
+				"artist-modal"
+			],
+			[
+				"is",
+				"isPlaying"
+			],
+			[
+				"audio",
+				"audioTag"
+			],
+			[
+				"song",
+				"songSample"
+			],
+			[
+				"artist",
+				"artistName"
+			],
+			[
+				"array",
+				"arrayOfTypes"
+			],
+			[
+				"uri",
+				"uriDescriptions"
+			],
+			[
+				"res",
+				"resource_uri"
+			],
+			[
+				"wi",
+				"weight"
+			],
+			[
+				"string",
+				"stringArray"
+			],
+			[
+				"js",
+				"js-albumList"
+			],
+			[
+				"data",
+				"data-id"
+			],
+			[
+				"list",
+				"listAlbums"
+			],
+			[
+				"request",
+				"requestAlbums"
+			],
+			[
+				"re",
+				"requestAlbums"
+			],
+			[
+				"search",
+				"searchAlbum"
+			],
+			[
+				"ima",
+				"images"
+			],
+			[
+				"fis",
+				"firstArtist"
+			],
+			[
+				"first",
+				"firstArtist"
+			],
+			[
+				"user",
+				"user_input"
+			],
+			[
+				"js-",
+				"js-character-list"
+			],
+			[
+				"post",
+				"postRequest"
+			],
+			[
+				"new",
+				"newCharacter"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"green",
+				"green-pepper"
+			],
+			[
+				"crust",
+				"crust-gluten-free"
+			],
+			[
+				"hello",
+				"hello-button"
+			],
+			[
+				"carousel",
+				"carousel_2"
+			],
+			[
+				"carouse",
+				"carousel_1"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"da",
+				"deadeline"
+			],
+			[
+				"bid",
+				"bid_params"
+			],
+			[
+				"link",
+				"link_to"
+			],
+			[
+				"favou",
+				"favourite_contacts"
+			],
+			[
+				"fav",
+				"favourite_contacts"
+			],
+			[
+				"email",
+				"email_address"
+			],
+			[
+				"padi",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padin",
+				"padding-bottom"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"questio",
+				"question"
+			],
+			[
+				"prom",
+				"prompUser"
+			],
+			[
+				"sort",
+				"sortEpisodes"
+			],
+			[
+				"episo",
+				"episodes"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"filter",
+				"filterEpisodes"
+			],
+			[
+				"episode",
+				"episode_number"
+			],
+			[
+				"ep",
+				"episode_number"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"right",
+				"margin-right"
+			],
+			[
+				"background-",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"mo",
+				"movie_title"
+			],
+			[
+				"movie",
+				"movie_title"
+			],
+			[
+				"firs",
+				"first_array_movies"
+			],
+			[
+				"movi",
+				"movie_posts"
+			],
+			[
+				"des",
+				"destx"
+			],
+			[
+				"ini",
+				"initial_position"
+			],
+			[
+				"pos",
+				"pos_y"
+			],
+			[
+				"white",
+				"white_pawn"
+			],
+			[
+				"dest",
+				"desty"
+			],
+			[
+				"start",
+				"starty"
+			],
+			[
+				"req",
+				"require_relative"
+			],
+			[
+				"exi",
+				"exist_words"
+			],
+			[
+				"char",
+				"char_first_word"
+			],
+			[
+				"intia",
+				"initital_word"
+			],
+			[
+				"inti",
+				"initital_word"
+			],
+			[
+				"word",
+				"word_exist"
+			],
+			[
+				"initia",
+				"initial_word"
+			],
+			[
+				"game",
+				"game_store"
+			],
+			[
+				"print",
+				"print_inventory"
+			],
+			[
+				"wor",
+				"wor_length"
+			],
+			[
+				"curre",
+				"current_room"
+			],
+			[
+				"prin",
+				"print_inventory"
+			],
+			[
+				"cure",
+				"current_room"
+			],
+			[
+				"use",
+				"tool_user_input"
+			],
+			[
+				"pick",
+				"pick_tools"
+			],
+			[
+				"cu",
+				"current_room"
+			],
+			[
+				"number",
+				"number_pages"
+			],
+			[
+				"last",
+				"last_page"
+			],
+			[
+				"tota",
+				"total_pages"
+			],
+			[
+				"las",
+				"last_page"
+			],
+			[
+				"current",
+				"current_page"
+			],
+			[
+				"Sponso",
+				"SponsoredPost"
+			],
+			[
+				"aged",
+				"aged_languages"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/app/shopping/shopping.html",
+			"settings":
+			{
+				"buffer_size": 2599,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/shopping/shopping.service.js",
+			"settings":
+			{
+				"buffer_size": 2295,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/index.scss",
+			"settings":
+			{
+				"buffer_size": 6135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/products/products.html",
+			"settings":
+			{
+				"buffer_size": 1694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/products/product.html",
+			"settings":
+			{
+				"buffer_size": 420,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/products/products.controller.js",
+			"settings":
+			{
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/components/navbar/navbar.html",
+			"settings":
+			{
+				"buffer_size": 1444,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/app/shopping/shopping.controller.js",
+			"settings":
+			{
+				"buffer_size": 1740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 236,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Procfile",
+			"settings":
+			{
+				"buffer_size": 18,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"last_filter": "beautify",
+		"selected_items":
+		[
+			[
+				"beautify",
+				"HTMLBeautify"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"htmlbeaufy",
+				"HTMLBeautify"
+			],
+			[
+				"htmlbeau",
+				"HTMLBeautify"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"beauti",
+				"Javascript Beautify"
+			],
+			[
+				"beau",
+				"Javascript Beautify"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"prosas",
+				"Project: Save As"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 105.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"mkdir -p ~/Library/Application\\ Support/TextMate/Bundles",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/assets/images"
+	],
+	"file_history":
+	[
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/contact/contact.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/main/main.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/index.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/products/products.service.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/Gruntfile.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/Gruntfile.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/web.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/components/navbar/navbar.directive.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/Gruntfile.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/index.route.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/shopping/shopping.service.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/shopping/shopping.controller.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/products/product.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/index.scss",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/components/navbar/navbar.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/components/navbar/navbar.service.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/products/products.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/products/products.controller.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/bower_components/angular-cookies/angular-cookies.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/contact/contact.controller.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/node_modules/protractor/testapp/app.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/shopping/shopping.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/assets/images/products/02.jpg",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/contact/messages.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/contact/popup.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/messages.html",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/contact/contact.service.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/index.constants.js",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/shopping-cart/src/app/products",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/controllers/messages_controller.rb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/Gemfile",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/controllers/cart_controller.rb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/javascripts/templates/shopping.html",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/views/messages/new.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/config/secrets.yml",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/javascripts/templates/contact.html",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/controllers/application_controller.rb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/javascripts/templates/product.html",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/config/routes.rb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/javascripts/templates/about.html",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/mailers/message_mailer.rb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/views/message_mailer/new_message.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/models/message.rb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/javascripts/templates/home.html",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/stylesheets/application.scss",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/config/application.yml",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/views/message_mailer/ new_message.text.erb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/config/environments/production.rb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/javascripts/templates/products_list.html",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/views/page/home.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/javascripts/application.js",
+		"/Users/karinfernandez/Desktop/Karin/shopCart/shocart/app/assets/stylesheets/products.scss",
+		"/Users/karinfernandez/Desktop/Karin/Projects/Yolyanko_portfolio/portfolio_project/demo.css",
+		"/Users/karinfernandez/Desktop/Karin/Projects/Yolyanko_portfolio/portfolio_project/images/carousel-images/cosmic_nights/No_1.jpg",
+		"/Users/karinfernandez/Desktop/Karin/Projects/Yolyanko_portfolio/portfolio_project/js/page_effects.js",
+		"/Users/karinfernandez/Desktop/Karin/Projects/Yolyanko_portfolio/portfolio_project/script.js",
+		"/Users/karinfernandez/Desktop/Karin/Projects/Yolyanko_portfolio/responsiveslides.js",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/assets/stylesheets/project.css.scss",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/assets/javascripts/application.js",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/controllers/conversations_controller.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/models/message.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/config/initializers/carrierwave.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/events/index.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/assets/javascripts/events.coffee",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/events/show.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/pages/home.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/models/user.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/posts/index.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/.buildpacks",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/config/environments/production.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/models/post.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/models/event.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/.gitignore",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/posts/edit.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/posts/_form.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/users/show.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/posts/index_all.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/users/index.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/image_galleries/edit.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/events/index_map.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/layouts/application.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/users/edit.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/events/edit.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/users/new.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/image_galleries/new.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/users/_form.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/config/routes.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/events/new.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/image_galleries/show.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/image_galleries/index.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/uploaders/image_uploader.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/controllers/users_controller.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/assets/javascripts/users.js",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/controllers/events_controller.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/db/schema.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/Gemfile",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/db/migrate/20160305201509_add_video_to_users.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/assets/javascripts/chat.js",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/views/conversations/show.html.erb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/db/migrate/20160305171849_create_conversations.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/controllers/posts_controller.rb",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/assets/javascripts/events.js.coffee",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/app/assets/javascripts/events.js",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/vendor/assets/javascripts/underscore.js",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/final_project/art_project/db/migrate/20160305123322_add_column_to_events.rb",
+		"/Users/karinfernandez/Desktop/Karin/AngularJS/projects/ngClassifieds/index.html",
+		"/Users/karinfernandez/Desktop/angular2-app/assets/scss/mycomponent.scss",
+		"/Users/karinfernandez/Desktop/angular2-app/dev/app.component.ts",
+		"/Users/karinfernandez/Desktop/angular2-app/dev/boot.ts",
+		"/Users/karinfernandez/Desktop/angular2-app/dev/my-component.component.ts",
+		"/Users/karinfernandez/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/karinfernandez/Desktop/Karin/IronHack/Ironhack_course_2/bootcamp/week_2/online_calculator/app.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/mailers/welcome_mailer.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/config/environments/production.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/config/initializers/devise.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/controllers/application_controller.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/config/environments/development.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/db/schema.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/config/application.yml",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/Gemfile",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/views/products/show.html.erb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/views/welcome_mailer/welcome_email.text.html.erb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/config/routes.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/controllers/users_controller.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/models/product.rb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/views/layouts/application.html.erb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/views/products/create.html.erb",
+		"/Users/karinfernandez/Desktop/rubyonrails/ebay/app/views/users/index.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"product_images",
+			"List product",
+			"list product",
+			"script",
+			"totalproducts",
+			"total products",
+			"total ",
+			"total products",
+			"log",
+			"image-size",
+			"xs",
+			"email-form",
+			"send-email",
+			"circle",
+			"white",
+			"product_images",
+			"product-images",
+			"no-product",
+			"each-product",
+			"xs",
+			"product-image",
+			"message-email",
+			"white",
+			"circle",
+			"products",
+			"navbar",
+			"span",
+			"prod.",
+			"Prod",
+			"prod",
+			"Prod",
+			"prod",
+			"navbar",
+			"	<!-- Product Title -->",
+			"the cookies",
+			"$cookies",
+			"cookies",
+			"your cart is currently empty",
+			"$cookiesProvider",
+			"$CookiesProvider",
+			"value",
+			"prod.",
+			"prod",
+			"$scope",
+			" $scope",
+			"no-product",
+			"center",
+			"product-images",
+			"p",
+			"send-email",
+			"all-content",
+			"orange-line",
+			"data",
+			"ProductService",
+			"ProductsController",
+			"MainController",
+			"message-text",
+			"input",
+			"contact",
+			":",
+			"contact",
+			"mesaggeCtrl",
+			"all-content",
+			"all-text",
+			"all-content",
+			"footer",
+			">\n",
+			"site-footer",
+			"font-navar",
+			"header-font",
+			"bootstrap",
+			"md",
+			"cosmic nights",
+			"cosmic-nights",
+			"No_55",
+			"lora",
+			"No_26",
+			"cosmic",
+			"section1",
+			"img-responsive",
+			"rectangle-footer",
+			"footer",
+			"cosmic",
+			"background-color",
+			"navbar-left",
+			"logo",
+			"target",
+			"player",
+			"sm",
+			"iframe",
+			"video",
+			"expand",
+			"bigtext",
+			"section1",
+			"section3",
+			"section4",
+			"section3",
+			"section2",
+			"section1",
+			"section1 home",
+			"section1",
+			"home",
+			"row",
+			"container-fluid",
+			"The engulfed Cathedral",
+			"menu",
+			"test",
+			"home_logo",
+			"home-logo",
+			"row",
+			"menu",
+			"fixed",
+			"menu",
+			"brand",
+			"link",
+			"bottom-footer",
+			"section4",
+			"bigtext",
+			"section4",
+			"js-list-comments li ",
+			"image_gallery_picture",
+			"edit_image_gallery",
+			"edit-back-event",
+			"back",
+			"add_event",
+			"no-event",
+			"message-no",
+			"message_no"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/app/shopping/shopping.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2599,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1803,
+								1808
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 552.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/app/shopping/shopping.service.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								190,
+								190
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/app/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3862,
+								3876
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": null,
+							"translate_tabs_to_spaces": null
+						},
+						"translation.x": 0.0,
+						"translation.y": 3875.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/app/products/products.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/app/products/product.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 420,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/app/products/products.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								519,
+								519
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/app/components/navbar/navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1444,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1333,
+								1333
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/app/shopping/shopping.controller.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 370.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1610,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 236,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "Procfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "shopping-cart.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"product.service",
+				"src/app/products/products.service.js"
+			],
+			[
+				"navba",
+				"src/app/components/navbar/navbar.directive.js"
+			],
+			[
+				"products.html",
+				"src/app/products/products.html"
+			],
+			[
+				"navbar.",
+				"src/app/components/navbar/navbar.html"
+			],
+			[
+				"navbar",
+				"src/app/components/navbar/navbar.service.js"
+			],
+			[
+				"app.js",
+				"node_modules/protractor/testapp/app.js"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"application_contro",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"cart_controller",
+				"app/controllers/cart_controller.rb"
+			],
+			[
+				"message_contro",
+				"app/controllers/messages_controller.rb"
+			],
+			[
+				"application",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"message_controller",
+				"app/controllers/messages_controller.rb"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"route.rb",
+				"config/routes.rb"
+			],
+			[
+				"mesage_contro",
+				"app/controllers/messages_controller.rb"
+			],
+			[
+				"routes.rb",
+				"config/routes.rb"
+			],
+			[
+				"message_maile",
+				"app/mailers/message_mailer.rb"
+			],
+			[
+				"application.yml",
+				"config/application.yml"
+			],
+			[
+				"appl",
+				"config/application.rb"
+			],
+			[
+				"production.rb",
+				"config/environments/production.rb"
+			],
+			[
+				"gemfil",
+				"Gemfile"
+			],
+			[
+				"buil",
+				".buildpacks"
+			],
+			[
+				"use",
+				"app/models/user.rb"
+			],
+			[
+				"user.rb",
+				"app/models/user.rb"
+			],
+			[
+				".bui",
+				".buildpacks"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"usersco",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"post.rb",
+				"app/models/post.rb"
+			],
+			[
+				"event",
+				"app/models/event.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"user_control",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			],
+			[
+				"message",
+				"app/models/message.rb"
+			],
+			[
+				"event_control",
+				"app/controllers/events_controller.rb"
+			],
+			[
+				"post_controller",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"post",
+				"app/models/post.rb"
+			],
+			[
+				"post_control",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"devise",
+				"config/initializers/devise.rb"
+			],
+			[
+				"production",
+				"config/environments/production.rb"
+			],
+			[
+				"userrb",
+				"app/models/user.rb"
+			],
+			[
+				"review",
+				"app/models/seller_review.rb"
+			],
+			[
+				"product_controller",
+				"app/controllers/products_controller.rb"
+			],
+			[
+				"product",
+				"app/models/product.rb"
+			],
+			[
+				"index",
+				"app/views/users/index.html.erb"
+			],
+			[
+				"seed",
+				"db/seeds.rb"
+			],
+			[
+				"user_controller",
+				"app/controllers/users_controller.rb"
+			],
+			[
+				"devise.en.yml",
+				"config/locales/devise.en.yml"
+			],
+			[
+				"auth-exercise",
+				"auth-exercise/config.ru"
+			],
+			[
+				"schema.rb",
+				"appName/db/schema.rb"
+			],
+			[
+				"application_controller",
+				"auth/app/controllers/application_controller.rb"
+			],
+			[
+				"home.html",
+				"auth/app/views/users/home.html.erb"
+			],
+			[
+				"home.html.erb",
+				"appName/app/views/site/home.html.erb"
+			],
+			[
+				"sandwiches",
+				"sandwichr_morning_application/app/controllers/sandwiches_controller.rb"
+			],
+			[
+				"application_co",
+				"sandwichr_morning_application/app/controllers/application_controller.rb"
+			],
+			[
+				"",
+				"auction_site/db/schema.rb"
+			],
+			[
+				"sandwich",
+				"Sandwichr/app/models/sandwich.rb"
+			],
+			[
+				"init",
+				"pkmn_components/app/assets/javascripts/init.js"
+			],
+			[
+				"concert",
+				"musicConcert/app/models/concert.rb"
+			],
+			[
+				"concerts",
+				"musicConcert/app/controllers/concerts_controller.rb"
+			],
+			[
+				"comment",
+				"musicConcert/app/models/comment.rb"
+			],
+			[
+				"sche",
+				"musicConcert/db/schema.rb"
+			],
+			[
+				"show",
+				"musicConcert/app/views/comments/show.html.erb"
+			],
+			[
+				"comment_controll",
+				"musicConcert/app/controllers/comments_controller.rb"
+			],
+			[
+				"seeds",
+				"musicConcert/db/seeds.rb"
+			],
+			[
+				"rautes",
+				"timetracking/config/routes.rb"
+			],
+			[
+				"environment.rb",
+				"appName/config/environment.rb"
+			],
+			[
+				"boot.rb",
+				"appName/config/boot.rb"
+			],
+			[
+				"bid",
+				"auction_site/app/models/bid.rb"
+			],
+			[
+				"product_controlle",
+				"auction_site/app/controllers/products_controller.rb"
+			],
+			[
+				"application_hel",
+				"appName/app/helpers/application_helper.rb"
+			],
+			[
+				"bid_controller",
+				"auction_site/app/controllers/bids_controller.rb"
+			],
+			[
+				"product_control",
+				"auction_site/app/controllers/products_controller.rb"
+			],
+			[
+				"products",
+				"auction_site/app/controllers/products_controller.rb"
+			],
+			[
+				"new.html",
+				"auction_site/app/views/users/new.html.erb"
+			],
+			[
+				"user_contro",
+				"auction_site/app/controllers/users_controller.rb"
+			],
+			[
+				"schem",
+				"auction_site/db/schema.rb"
+			],
+			[
+				"pro",
+				"auction_site/app/models/product.rb"
+			],
+			[
+				"bid.rb",
+				"auction_site/app/models/bid.rb"
+			],
+			[
+				"user.html.erb",
+				"auction_site/app/views/users/new.html.erb"
+			],
+			[
+				"products_contro",
+				"auction_site/app/controllers/products_controller.rb"
+			],
+			[
+				"product.rb",
+				"auction_site/app/models/product.rb"
+			],
+			[
+				"contact",
+				"address_book/app/controllers/contacts_controller.rb"
+			],
+			[
+				"contact.rb",
+				"address_book/app/models/contact.rb"
+			],
+			[
+				"development.rb",
+				"address_book/config/environments/development.rb"
+			],
+			[
+				"conca",
+				"address_book/app/controllers/contacts_controller.rb"
+			],
+			[
+				"migrate",
+				"address_book/db/migrate/20160131235704_create_contacts.rb"
+			],
+			[
+				"aplication.js",
+				"appName/app/assets/javascripts/application.js"
+			],
+			[
+				"datab",
+				"art_project/config/database.yml"
+			],
+			[
+				"applicatio",
+				"art_project/config/application.rb"
+			],
+			[
+				"session",
+				"art_project/config/initializers/session_store.rb"
+			],
+			[
+				"secrets",
+				"art_project/config/secrets.yml"
+			],
+			[
+				"projet",
+				"art_project/app/assets/stylesheets/project.css.scss"
+			],
+			[
+				"email",
+				"final_project/art_project/app/views/user_mailer/welcome_email.html.erb"
+			],
+			[
+				"image",
+				"final_project/art_project/app/uploaders/image_uploader.rb"
+			],
+			[
+				"image_uploader",
+				"final_project/art_project/app/uploaders/image_uploader.rb"
+			],
+			[
+				"home",
+				"final_project/art_project/app/views/pages/home.html.erb"
+			],
+			[
+				"about",
+				"final_project/art_project/app/views/pages/about.html.erb"
+			],
+			[
+				"index_all",
+				"final_project/art_project/app/views/posts/index_all.html.erb"
+			],
+			[
+				"image_uplo",
+				"final_project/art_project/app/uploaders/image_uploader.rb"
+			],
+			[
+				"post_contro",
+				"final_project/art_project/app/controllers/posts_controller.rb"
+			],
+			[
+				"uploader",
+				"final_project/art_project/app/uploaders/image_uploader.rb"
+			],
+			[
+				"project.c",
+				"final_project/art_project/app/assets/stylesheets/project.css.scss"
+			],
+			[
+				"events",
+				"final_project/art_project/app/controllers/events_controller.rb"
+			],
+			[
+				"devise.rb",
+				"final_project/art_project/config/initializers/devise.rb"
+			],
+			[
+				"gallery",
+				"final_project/art_project/app/models/image_gallery.rb"
+			],
+			[
+				"event.html",
+				"final_project/art_project/app/views/events/edit.html.erb"
+			],
+			[
+				"about.html",
+				"final_project/art_project/app/views/pages/about.html.erb"
+			],
+			[
+				"edvise",
+				"final_project/art_project/config/initializers/devise.rb"
+			],
+			[
+				"application_",
+				"final_project/art_project/app/controllers/application_controller.rb"
+			],
+			[
+				"user_controll",
+				"final_project/art_project/app/controllers/users_controller.rb"
+			],
+			[
+				"events_contro",
+				"final_project/art_project/app/controllers/events_controller.rb"
+			],
+			[
+				"event_contro",
+				"final_project/art_project/app/controllers/events_controller.rb"
+			],
+			[
+				"image_galle",
+				"final_project/art_project/app/models/image_gallery.rb"
+			],
+			[
+				"gem",
+				"final_project/art_project/Gemfile"
+			],
+			[
+				"post_controlle",
+				"art_project/app/controllers/posts_controller.rb"
+			],
+			[
+				"imag",
+				"art_project/app/models/image_gallery.rb"
+			],
+			[
+				"sc",
+				"art_project/db/schema.rb"
+			],
+			[
+				"sch",
+				"art_project/db/schema.rb"
+			],
+			[
+				"image_gallery",
+				"art_project/app/models/image_gallery.rb"
+			],
+			[
+				"ima",
+				"art_project/app/uploaders/image_uploader.rb"
+			],
+			[
+				"ind",
+				"art_project/app/views/photos/index.html.erb"
+			],
+			[
+				"post_controll",
+				"art_project/app/controllers/posts_controller.rb"
+			],
+			[
+				"custom",
+				"art_project/app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"comment_controller",
+				"art_project/app/controllers/comments_controller.rb"
+			],
+			[
+				"commen",
+				"art_project/app/controllers/comments_controller.rb"
+			],
+			[
+				"rou",
+				"art_project/config/routes.rb"
+			],
+			[
+				"comme",
+				"art_project/app/models/comment.rb"
+			],
+			[
+				"application.html.erb",
+				"art_project/app/views/layouts/application.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 255.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

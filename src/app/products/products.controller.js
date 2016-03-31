@@ -14,6 +14,7 @@
       
 
       ProductService.getProducts().success(function(data){
+        // $log.debug(data);
         vm.products=data;
         
       });

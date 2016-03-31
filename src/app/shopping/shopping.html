@@ -10,56 +10,66 @@
 		
 		<a class="color-links" ng-href="#/shopping" ng-click="shop.emptyCart()">Empty cart</a>
 	</div>
-	
-	<table class="table">
-		<thead>
-			<tr>
-				<th class="padding-col">Product</th>
-				<th class="padding-col">Amount</th>
-				<th class="padding-col">Price</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr ng-repeat="(key, value) in shop.productList()">
-				<!-- Product Title -->
-				<td> {{(value | toArray)[1]}} </td>
-				<!-- Product Amount -->
-				<td><span class="glyphicon glyphicon-minus minus-icon" aria-hidden="true" ng-click="shop.removeProdCart(key,value,product.price)" ></span><span>{{(value | toArray)[0]}} </span><span class="glyphicon glyphicon-plus plus-icon" aria-hidden="true" ng-click="shop.addMore(key,value)"></span></td>
-				<!-- Product Price -->
-				<td> {{(value | toArray)[2] | currency}} </td>
-				<td><span ng-click='shop.removeProd(key)'>Remove product</span></td>
+
+	<div ng-hide="shop.showChecloutTable === false">
+		<table class="table">
+			<thead>
+				<tr>
+					<th class="padding-col">Product</th>
+					<th class="padding-col">Amount</th>
+					<th class="padding-col">Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="(key, value) in shop.products">
+					<!-- Product Title -->
+					<td> {{(value | toArray)[1]}} </td>
+					<!-- Product Amount -->
+					<td><span class="glyphicon glyphicon-minus minus-icon" aria-hidden="true" ng-click="shop.removeProdCart(key,value,product.price)" ></span><span>{{(value | toArray)[0]}} </span><span class="glyphicon glyphicon-plus plus-icon" aria-hidden="true" ng-click="shop.addMore(key,value)"></span></td>
+					<!-- Product Price -->
+					<td> {{(value | toArray)[2] | currency}} </td>
+					<td><span ng-click='shop.removeProd(key)'>Remove product</span></td>
+					
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="table">
+			<p class="totalprod">Total QTY: {{shop.totalProducts()}}</p>
+			<p class="totalprod">Order Value: {{shop.totalPrice() | currency}}</p>
+		</div>
+
+		<!-- Form for the buy now in paypal -->
+		<div >
+			<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_xclick">
+				<input type="hidden" name="business" value="karinfpe-store@yahoo.es">
+				<input type="hidden" name="lc" value="CA">
+				<input type="hidden" name="item_name" value="List of Items">
+				<input type="hidden" name="amount" value="{{shop.totalPrice()| currency}}">
 				
-			</tr>
-		</tbody>
-	</table>
-	<div class="table">
-		<p class="totalprod">Total QTY: {{shop.totalProducts()}}</p>
-		<p class="totalprod">Order Value: {{shop.totalPrice() | currency}}</p>
+				<input type="hidden" name="button_subtype" value="services">
+				<input type="hidden" name="no_note" value="0">
+				<!-- Calculate the tax rate in percent-->
+				<input type="hidden" name="tax_rate" value="14">
+				<input type="hidden" name="shipping" value="7.50">
+				<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+				<input type="image" src="http://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now">
+				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+		</div>
+
+		<div >
+			<span class="message-no-products">{{shop.message}}</span>
+		</div>
+	</div>
+
+	<div ng-hide="shop.showChecloutTable === true">
+		<h3 class="text-center">Cart is empty</h3>
 	</div>
 	
 	
 	
-	<!-- Form for the buy now in paypal -->
-	<div >
-		<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-			<input type="hidden" name="cmd" value="_xclick">
-			<input type="hidden" name="business" value="karinfpe-store@yahoo.es">
-			<input type="hidden" name="lc" value="CA">
-			<input type="hidden" name="item_name" value="List of Items">
-			<input type="hidden" name="amount" value="{{shop.totalPrice()| currency}}">
-			
-			<input type="hidden" name="button_subtype" value="services">
-			<input type="hidden" name="no_note" value="0">
-			<!-- Calculate the tax rate in percent-->
-			<input type="hidden" name="tax_rate" value="14">
-			<input type="hidden" name="shipping" value="7.50">
-			<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-			<input type="image" src="http://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-		</form>
-	</div>
-	<div >
-		<span class="message-no-products">{{shop.message}}</span>
-	</div>
+	
 </div>
 </div>

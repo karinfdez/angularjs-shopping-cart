@@ -33,31 +33,31 @@
             return defered.promise;
         },
 
-            addProduct: function(id, title, price) {
+        addProduct: function(id, title, price) {
 
-                var quantity = 0;
-                var totalPrice = 0;
-                var productData = [];
-                var originalPrice=price;
-                // If id exist, evaluates to false,otherwise create a new one
-              
-                if (!($cookies.get(id))) {
-                    quantity = 1;
-                    totalPrice = price;
-                } else {
-                    var array = JSON.parse($cookies.get(id));
-                    // Position 0 is for quantity.
-                    $log.debug("quantity",array[0]);
-                    quantity = array[0] + 1;
-                    $log.debug("Original price",array[3]);
-                    totalPrice = parseFloat(array[2]) + parseFloat(originalPrice);
-                }
+            var quantity = 0;
+            var totalPrice = 0;
+            var productData = [];
+            var originalPrice=price;
+            // If id exist, evaluates to false,otherwise create a new one
+          
+            if (!($cookies.get(id))) {
+                quantity = 1;
+                totalPrice = price;
+            } else {
+                var array = JSON.parse($cookies.get(id));
+                // Position 0 is for quantity.
+                $log.debug("quantity",array[0]);
+                quantity = array[0] + 1;
+                $log.debug("Original price",array[3]);
+                totalPrice = parseFloat(array[2]) + parseFloat(originalPrice);
+            }
 
-                productData.push(quantity, title, totalPrice,originalPrice);
-                // Saving for specific id the amount,product title,price and original price
-                $log.debug("The id",id);
-                $cookies.putObject(id,productData);
-            },
+            productData.push(quantity, title, totalPrice,originalPrice);
+            // Saving for specific id the amount,product title,price and original price
+            $log.debug("The id",id);
+            $cookies.putObject(id,productData);
+        },
 
             showProducts: function() {
 

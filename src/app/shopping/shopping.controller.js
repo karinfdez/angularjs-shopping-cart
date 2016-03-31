@@ -20,14 +20,22 @@
     vm.removeProdCart=removeProdCart;
     vm.removeProd=removeProd;
 
+    vm.products = {};
+
+    productList();
+
     function emptyCart(){
       ShoppingService.emptyCart();
-    
     }
 
-     vm.productList=function(){
-      return $cookies.getAll();
-     }
+    function productList(){
+      var products = $cookies.getAll();
+      $log.debug(products);
+      vm.products = products;
+      $log.debug(products);
+      vm.showChecloutTable = products === {} || !angular.isObject(products) || angular.isUndefined(products)? false : true;
+      $log.debug(vm.showChecloutTable);
+    }
 
      // $log.debug("List product", vm.productList);
 
@@ -41,6 +49,7 @@
 
      function addProdCart(id,title,price){
         ProductService.addProduct(id,title,price);
+        productList();
      }
 
      function removeProdCart(id,array){
@@ -48,11 +57,12 @@
         var title=array[1];
         var originalPrice=array[3];
         ShoppingService.removeProduct(id,title,originalPrice);
+        productList();
      }
 
      function removeProd(id){
-      
         $cookies.remove(id);
+        productList();
      }
 
      ProductService.getProducts().success(function(data){

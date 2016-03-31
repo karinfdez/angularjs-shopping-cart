@@ -22,8 +22,8 @@
 <!-- <div class="image-size"> -->
 <a class='image-size' ng-href="#/products/{{product.id}}" data="{{product.id}}" ng-href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
 <!-- </div> -->
-<div>
-  <h3><a ng-href="#/products/{{product.id}}" ng-click="prod.getDetails(product.id)">{{product.title}}</a></h3><h3 class="price-product">{{product.price | currency}}</h3>
+<div class="float-elements">
+  <h3><a ng-href="#/products/{{product.id}}" ng-click="prod.getDetails(product.id)">{{product.title}}</a><span class="bar-products">|</span><span class="price-product">{{product.price | currency}}</span></h3>
 </div>
 <!--  <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button> -->
 <div class="button-add" ng-click="prod.addProd(product)" >Add to cart</div>

@@ -24,8 +24,8 @@
           // $timeout(function () { vm.showSign= false }, 3000); 
         
           vm.message={};
-          vm.sentMessage="Thanks, your message have been sent to Karin Fernandez.";
           vm.showMessage=true;
+          vm.sentMessage="Thanks, your message have been sent to Karin Fernandez.";
           $timeout(function () { vm.showMessage= false }, 6000);  
           
        })

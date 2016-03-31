@@ -15,6 +15,7 @@
   /** @ngInject */
   function ShoppingController($log,ShoppingService,$cookies,$scope,ProductService) {
     var vm = this;
+    vm.showSign=false;
     vm.emptyCart=emptyCart;
     vm.addProdCart=addProdCart;
     vm.removeProdCart=removeProdCart;
@@ -31,12 +32,13 @@
 
     function productList(){
       var products = $cookies.getAll();
-      $log.debug(products);
+      // $log.debug(products);
       vm.products = products;
-      $log.debug(products);
-      vm.showChecloutTable = products === {} || !angular.isObject(products) || angular.isUndefined(products)? false : true;
-      $log.debug(vm.showChecloutTable);
+      vm.showCheckoutTable = jQuery.isEmptyObject(products) ? false : true;
+     
     }
+
+    
 
      // $log.debug("List product", vm.productList);
 
@@ -82,6 +84,12 @@
       }
       return total;
      }
+
+     vm.showMessage=function(){
+        vm.showSign=true;
+
+     }
+
 }
 
 })();

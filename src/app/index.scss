@@ -36,6 +36,7 @@ width: 50px;
 .font-navbar{
 font-color:black;
 }
+
 .cart-icon{
 
 width: 23px;
@@ -278,6 +279,13 @@ padding-left:10px;
 position:relative;
 }
 
+.text-center{
+  color:white;
+  position:absolute;
+  top:200%;
+  left:43%;
+}
+
 
 .loader {
   margin: 100px auto;
@@ -285,9 +293,9 @@ position:relative;
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  position: relative;
-  top:-350px;
-  left:-80px;
+  position: absolute;
+  top:35%;
+  left:40%;
   text-indent: -9999em;
   -webkit-animation: load5 1.1s infinite ease;
   animation: load5 1.1s infinite ease;

@@ -11,7 +11,7 @@
 		<a class="color-links" ng-href="#/shopping" ng-click="shop.emptyCart()">Empty cart</a>
 	</div>
 
-	<div ng-hide="shop.showChecloutTable === false">
+	<div ng-hide="shop.showCheckoutTable === false">
 		<table class="table">
 			<thead>
 				<tr>
@@ -54,18 +54,18 @@
 				<input type="hidden" name="tax_rate" value="14">
 				<input type="hidden" name="shipping" value="7.50">
 				<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
-				<input type="image" src="http://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now">
+				<div ng-click="shop.showMessage()" ><input type="image" src="http://www.paypalobjects.com/webstatic/en_US/btn/btn_buynow_107x26.png" name="submit" alt="Buy Now"></div>
 				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
 		</div>
-
+		<div class="loader position-loader" ng-show="shop.showSign"></div>
 		<div >
 			<span class="message-no-products">{{shop.message}}</span>
 		</div>
 	</div>
 
-	<div ng-hide="shop.showChecloutTable === true">
-		<h3 class="text-center">Cart is empty</h3>
+	<div ng-show="shop.showCheckoutTable===false">
+		<h2 class="text-center">Cart is empty</h2>
 	</div>
 	
 </div>

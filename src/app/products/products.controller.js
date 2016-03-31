@@ -6,7 +6,7 @@
     .controller('ProductsController', ProductsController);
 
   /** @ngInject */
-  function ProductsController($log,ProductService) {
+  function ProductsController($log,ProductService,growl) {
     
       // $log.debug("route",$routeParams);
       var vm = this;
@@ -22,9 +22,8 @@
       function addProd(product){
        
         ProductService.addProduct(product.id,product.title,product.price);
-        // vm.show=true;
-        // $timeout(function () { vm.show= false }, 2000);
-
+        // Show sucess message using the angular-growl library.Close message after 2 seconds:
+         growl.addSuccessMessage("Poduct added to cart", {ttl: 2000});
       }
 
     // var product = $routeParams;

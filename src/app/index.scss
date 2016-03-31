@@ -169,6 +169,18 @@ font-size:18px;
 .product-search{
 margin-top:7%;
 }
+
+.fixed-message{
+  position:fixed;
+  z-index:3;
+
+}
+
+.growl-item.alert.ng-scope.alert-success,.ng-binding.ng-scope{
+
+  background-color: #E95A24;
+  color:white;
+}
 .product-search-input{
 width:100%;
 border:none;

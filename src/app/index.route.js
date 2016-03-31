@@ -4,9 +4,13 @@
   angular
     .module('shoppingCart')
     .config(routerConfig);
-
+    
+   
   /** @ngInject */
-  function routerConfig($stateProvider, $urlRouterProvider) {
+  function routerConfig($stateProvider, $urlRouterProvider,growlProvider) {
+    // Set Globaly a timeout of 5 seconds for each message from growl
+    growlProvider.globalTimeToLive(5000);
+    
     $stateProvider
       .state('home', {
         url: '/',

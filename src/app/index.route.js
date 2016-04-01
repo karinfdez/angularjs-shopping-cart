@@ -38,8 +38,8 @@
       })
       .state('product',{
         url: '/products/:id',
-        templateUrl: 'app/products/product.html',
-        controller: 'ProductsController',
+        templateUrl: 'app/product/product.html',
+        controller: 'ProductController',
         controllerAs: 'prod'
       })
 

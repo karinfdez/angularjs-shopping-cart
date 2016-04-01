@@ -20,10 +20,10 @@
 <div class=" product_images col-md-4 col-lg-4" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
 
 <!-- <div class="image-size"> -->
-<a class='image-size' ng-href="#/products/{{product.id}}" data="{{product.id}}" ng-href="#/product/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
+<a class='image-size' ng-href="#/products/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
 <!-- </div> -->
 <div class="float-elements">
-  <h3><a ng-href="#/products/{{product.id}}" ng-click="prod.getDetails(product.id)">{{product.title}}</a><span class="bar-products">|</span><span class="price-product">{{product.price | currency}}</span></h3>
+  <h3><a ng-href="#/products/{{product.id}}">{{product.title}}</a><span class="bar-products">|</span><span class="price-product">{{product.price | currency}}</span></h3>
 </div>
 <!--  <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button> -->
 <div class="button-add" ng-click="prod.addProd(product)" >Add to cart</div>

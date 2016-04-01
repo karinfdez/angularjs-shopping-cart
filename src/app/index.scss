@@ -153,9 +153,7 @@ color: white;
 .hideMessage{
   visibility: hidden
 }
-// .email-form{
-// padding-top: 50px;
-// }
+
 .message-sent{
 	display:block;
 // text-align:center;
@@ -360,6 +358,46 @@ position:relative;
   87.5% {
     box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5), -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+
+// Product page
+
+.specific-image{
+    width: 270px;
+    height: 270px;
+    float:left;
+    margin-right: 30px;
+}
+
+
+.float-content{
+  display:inline;
+  color:white;
+  font-size:16px;
+}
+
+.description-product{
+  width:90%;
+}
+
+.product-all-content{
+  padding-top:100px;
+}
+
+.button-cart{
+
+  clear:both;
+}
+
+.button-add-product{
+  background-color: #E95A24;
+  width: 160px;
+  height: 30px;
+  color: white;
+  font-size: 20px;
+  padding-left: 50px;
+
 }
 
 

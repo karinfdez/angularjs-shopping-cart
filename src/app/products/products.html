@@ -4,8 +4,7 @@
   <div class="row">
   <acme-navbar creation-date="main.creationDate"></acme-navbar>
 </div>
- <div class="fixed-message" growl ttl="10000"></div> <!-- adding the grow directive to html -->
-
+<div class="fixed-message" growl ttl="10000"></div> <!-- adding the grow directive to html -->
 <!-- Form to search for specific product -->
 <div class="row product-search">
   <div class="col-xs-12 col-lg-8 col-lg-offset-2">
@@ -18,7 +17,6 @@
 <section ng-show="prod.alertDisplayed"> Product added to cart</section>
 <!-- Return the product filtering by title of user input. -->
 <div class=" product_images col-md-4 col-lg-4" ng-repeat="product in prod.products | filter:{title: prod.userInput}">
-
 <!-- <div class="image-size"> -->
 <a class='image-size' ng-href="#/products/{{product.id}}"><img ng-src="assets/images/products/{{product.image}}"></a>
 <!-- </div> -->
@@ -27,13 +25,9 @@
 </div>
 <!--  <button  ng-click="prod.addProd(product.id,product.title,product.price)">Add to Cart</button> -->
 <div class="button-add" ng-click="prod.addProd(product)" >Add to cart</div>
-
 </div>
-
 </div>
 <!-- Show this message if a product if not found. -->
 <span class="no-product" ng-show="!(prod.products| filter:{title:prod.userInput}).length">No product found</></span>
 <script src="../bower_components/angular-cookies/angular-cookies.js"></script>
-
-
 </div>

@@ -6,7 +6,7 @@
         .factory('ShoppingService', ShoppingService);
 
     /** @ngInject */
-    function ShoppingService($cookies,ProductService,$log) {
+    function ShoppingService($cookies, ProductService) {
 
         return {
             emptyCart: function() {
@@ -42,26 +42,26 @@
                 }
                 return productList;
             },
-           removeProduct : function(id,title,price){
-            // $log.debug("price",price);
+            removeProduct: function(id, title, price) {
+                // $log.debug("price",price);
                 var quantity = 0;
                 var totalPrice = 0;
                 var productData = [];
-               
+
                 // $log.debug("The array",array);
-                if ($cookies.get(id)){
-                  var array=ProductService.convertToJson($cookies.get(id));
-                  if( array[0]>1){
-                    quantity=parseInt(array[0])-1;
-                    totalPrice= parseFloat(array[2])-parseFloat(price);
-                    productData.push(quantity, title, totalPrice,price);
-                    $cookies.putObject(id, productData);
-                  }else{
-                     $cookies.remove(id);
+                if ($cookies.get(id)) {
+                    var array = ProductService.convertToJson($cookies.get(id));
+                    if (array[0] > 1) {
+                        quantity = parseInt(array[0]) - 1;
+                        totalPrice = parseFloat(array[2]) - parseFloat(price);
+                        productData.push(quantity, title, totalPrice, price);
+                        $cookies.putObject(id, productData);
+                    } else {
+                        $cookies.remove(id);
+                    }
+
                 }
-                 
             }
         }
     }
-  }
 })();

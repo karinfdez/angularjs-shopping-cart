@@ -2,13 +2,22 @@
 	<div class="row">
 	<acme-navbar creation-date="main.creationDate"></acme-navbar>
 </div>
+<div class="fixed-message" growl></div> 
 <div class="row">
-	<div class="col-xs-6 col-xs-offset-3" ng-init="prod.getDetails">
+	<div class="col-xs-10 col-xs-offset-1 product-all-content" ng-init="product.getDetails">
 		
-		<p>{{prod.specificProd.title}}</p>
-		<p>{{prod.specificProd.description}}</p>
-		<p>{{prod.specificProd.price | currency}}</p>
-		<img class="specific-image" ng-src="assets/images/products/{{prod.specificProd.image}}">
+		<img class="specific-image" ng-src="assets/images/products/{{product.specificProd.image}}">
+		<div class="float-content">
+			<p>{{product.specificProd.title}}</p>
+			<p class="description-product">{{product.specificProd.description}}</p>
+			<p>{{product.specificProd.price | currency}}</p>
+		</div>
 	</div>
+	<div class='row'>
+		<div class="col-xs-2 col-xs-offset-5">
+		<div class="button-add-product" ng-click="product.addTheProd(product.specificProd)">Add to cart</div>
+		</div>
+	</div>
+
 </div>
 </div>

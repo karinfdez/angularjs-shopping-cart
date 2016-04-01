@@ -1,32 +1,34 @@
 (function() {
-  'use strict';
+    'use strict';
 
-  angular
-    .module('shoppingCart')
-    .controller('ProductsController', ProductsController);
+    angular
+        .module('shoppingCart')
+        .controller('ProductsController', ProductsController);
 
-  /** @ngInject */
-  function ProductsController($log,ProductService,growl,$stateParams) {
-    
-      // $log.debug("route",$routeParams);
-      var vm = this;
-      vm.addProd = addProd;
-      vm.show=false;
-      
+    /** @ngInject */
+    function ProductsController($log, ProductService, growl) {
 
-      ProductService.getProducts().success(function(data){
-        // $log.debug(data);
-        vm.products=data;
-        
-      });
 
-      function addProd(product){
-       
-        ProductService.addProduct(product.id,product.title,product.price);
-        // Show sucess message using the angular-growl library.Close message after 2 seconds:
-         growl.addSuccessMessage("Poduct added to cart", {ttl: 2000});
-      }
-    
-       
+        var vm = this;
+        vm.addProd = addProd;
+        vm.show = false;
+
+
+        ProductService.getProducts().success(function(data) {
+
+            vm.products = data;
+
+        });
+
+        function addProd(product) {
+
+            ProductService.addProduct(product.id, product.title, product.price);
+            // Show sucess message using the angular-growl library.Close message after 2 seconds:
+            growl.addSuccessMessage("Poduct added to cart", {
+                ttl: 2000
+            });
+        }
+
+
     }
-  })();
+})();

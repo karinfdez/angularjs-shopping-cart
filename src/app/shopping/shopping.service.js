@@ -6,7 +6,7 @@
         .factory('ShoppingService', ShoppingService);
 
     /** @ngInject */
-    function ShoppingService($cookies, ProductService) {
+    function ShoppingService($cookies, ProductService,$log) {
 
         return {
             emptyCart: function() {
@@ -19,11 +19,9 @@
             getTotal: function() {
                 var total = 0;
                 // $log.debug("the cookies", $cookies.getAll());
-
                 for (var key in $cookies.getAll()) {
                     // To convert from string to array
                     var productInfo = ProductService.convertToJson($cookies.get(key));
-                    // $log.debug("product info:", productInfo);
                     // Position 0 is the amount and position 1 is the title
                     total += parseInt(productInfo[0]);
                 }

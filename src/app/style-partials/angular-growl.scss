@@ -1,0 +1,46 @@
+/**
+ * angular-growl - v0.4.0 - 2013-11-19
+ * https://github.com/marcorinck/angular-growl
+ * Copyright (c) 2013 Marco Rinck; Licensed MIT
+ */
+
+//  <div class="growl">
+//    <div class="growl-item alert" ng-repeat="message in messages" ng-class="computeClasses(message)">
+//    	<button type="button" class="close" ng-click="deleteMessage(message)">&times;</button>
+//      <div ng-switch="message.enableHtml">
+//         <div ng-switch-when="true" ng-bind-html="message.text"></div>
+//         <div ng-switch-default ng-bind="message.text"></div>
+//         </div>' + '\t</div>' + '</div>'
+
+.growl {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	float: right;
+	width: 250px;
+}
+.growl-item {
+	&.ng-enter {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: .5s linear all;
+		opacity: 0;
+		&.ng-enter-active {
+			opacity: 1;
+		}
+	}
+	&.ng-leave {
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: .5s linear all;
+		opacity: 1;
+		&.ng-leave-active {
+			opacity: 0;
+		}
+	}
+}
+.alert.alert-success{
+  background-color: $brand-primary;
+  color:white;
+  div{
+  	background-color: $brand-primary;
+  }
+}

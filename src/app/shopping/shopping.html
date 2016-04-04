@@ -24,7 +24,7 @@
 					<!-- Product Title -->
 					<td> {{(value | toArray)[1]}} </td>
 					<!-- Product Amount -->
-					<td><span class="glyphicon glyphicon-minus minus-icon" aria-hidden="true" ng-click="shop.removeProdCart(key,value,product.price)" ></span><span>{{(value | toArray)[0]}} </span><span class="glyphicon glyphicon-plus plus-icon" aria-hidden="true" ng-click="shop.addMore(key,value)"></span></td>
+					<td><span class="glyphicon glyphicon-minus minus-icon" aria-hidden="true" ng-click="shop.removeProdCart(key,value,product.price)" ></span><span class="amount-product">{{(value | toArray)[0]}} </span><span class="glyphicon glyphicon-plus plus-icon" aria-hidden="true" ng-click="shop.addMore(key,value)"></span></td>
 					<!-- Product Price -->
 					<td> {{(value | toArray)[2] | currency}} </td>
 					<td><span ng-click='shop.removeProd(key)'>Remove product</span></td>

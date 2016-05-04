@@ -135,13 +135,18 @@ padding-top:15%;
 
 
 #circle {
-width: 80%;
-height:450px;
+width: 380px;
+height:380px;
 border-radius: 50%;
 // margin-left: 12%;
-margin-top: 160px;
-max-width:400px;
+// margin-top: 160px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
+
 .text-presentation{
 
 font-size: 16px;
@@ -432,10 +437,10 @@ padding-left:10px;
 height:300px;
 width:300px;
 position: fixed;
-top: 25%;
-left: 50%;
+// top: 25%;
+// left: 50%;
 /* bring your own prefixes */
-transform: translate(-50%, -50%);
+// transform: translate(-50%, -50%);
 }
 
 .all-content {
@@ -597,10 +602,11 @@ p.totalprod.ng-binding{
 @media screen and (min-width: 768px){
 // Home page
 #circle{
-  width: 90%;
+  height:390px;
+  width: 390px;
   // margin-left: 25px;
-  margin-top: 200px;
-  margin-left: 35px;
+  // margin-top: 200px;
+  // margin-left: 35px;
 }
 // .logo-bulb{
 // padding-left: 43%;
@@ -688,12 +694,7 @@ p.message-email {
 padding-top: 10%;
 text-align: center;
 }
-// Home page
-#circle{
-height:450px;
-width:90%;
-margin-top:100px;
-}
+
 // Shopping page
 h2.shop-title {
 padding-top: 60px;
@@ -722,13 +723,12 @@ padding-top: 60px;
 // Home page
 #circle{
 height:400px;
-width:65%;
-margin-left:12px;
-margin-top:100px;
+// width:65%;
+max-width:400px;
+// margin-left:12px;
+// margin-top:100px;
 }
-// .logo-bulb{
-// padding-left: 43%;
-// }
+
 // Contact page
 p.message-email{
 font-size:22px;
@@ -745,6 +745,7 @@ margin-right: 150px;
   width: 80%;
   height: 298px;
   max-width:400px;
+  max-height:400px;
 }
 .text-center{
   padding-top:140px;
